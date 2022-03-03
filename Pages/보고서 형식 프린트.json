@@ -331,7 +331,7 @@
                     },
                     "value": "%Null%",
                     "compareType": 1,
-                    "Id": "9e263c4a-f47e-4449-ad76-3bfa3f78e72c"
+                    "Id": "496f6a42-17c5-45e3-9fe3-fddac3691788"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -345,9 +345,9 @@
                     },
                     "value": "%Null%",
                     "compareType": 1,
-                    "Id": "f7672943-239e-47cc-b73c-7099d25da920"
+                    "Id": "a2af983c-48a5-4896-8776-34e9cef8f5f8"
                   },
-                  "Id": "3a5d444a-8dd8-4215-b8bf-3f2efaaa6633"
+                  "Id": "faca1f4a-678b-4e99-8077-82693f6eac2a"
                 },
                 "CommandList": [
                   {
@@ -365,7 +365,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='보고서 형식 프린트'!G5"
                         },
-                        "Id": "6f178198-0888-44d3-99c3-39dc46706b42"
+                        "Id": "77ab5fe1-c239-4d08-8354-81661479baa6"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -377,15 +377,15 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='보고서 형식 프린트'!G6"
                         },
-                        "Id": "eff549dd-20ca-4f3e-b37c-783c857f2c74"
+                        "Id": "f1c04dfd-c278-4f87-9ecc-380e1257e469"
                       },
-                      "Id": "7705bdc9-7b8e-40e1-8e31-ae99e55636f9"
+                      "Id": "7582bd56-ddd5-4490-b7cb-55b968995056"
                     },
                     "Params": [
                       "=G5",
                       "=G6"
                     ],
-                    "ID": "bfd3640846f34581aebcb2ea7410c733"
+                    "ID": "8cb30a30d6844b37a48b6082f3d28e25"
                   },
                   {
                     "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
@@ -409,7 +409,7 @@
                             ]
                           },
                           "value": "%Null%",
-                          "Id": "b1267a2b-f313-49a1-b6e1-52c9cb9bf52d"
+                          "Id": "39b15d7b-0ddf-491a-a043-522a768044a3"
                         },
                         "CommandList": [
                           {
@@ -441,7 +441,7 @@
                             ]
                           }
                         ],
-                        "ID": "de6bbd7f-565a-416c-8c5d-47f635559bb8"
+                        "ID": "a5bf4751-5320-4167-9f08-338a6f212278"
                       },
                       {
                         "CommandList": [
@@ -474,12 +474,12 @@
                             ]
                           }
                         ],
-                        "ID": "4308a2c5-0d9f-4d1e-bc69-6c8946c71e0c"
+                        "ID": "8720110b-68c2-49aa-992e-2d5cc7c36a48"
                       }
                     ]
                   }
                 ],
-                "ID": "f10e4b02-4c79-47c7-baf8-91c38e638e65"
+                "ID": "ac2d9c72-bbd8-4080-97da-51e4f5b85600"
               }
             ]
           }
@@ -513,7 +513,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "dce68673-8bf4-4291-86b2-8f39458e5059"
+                  "Id": "1a8a4198-dc07-49d5-bb85-475c1413c8c1"
                 },
                 "CommandList": [
                   {
@@ -530,7 +530,7 @@
                     ]
                   }
                 ],
-                "ID": "1c1d2dc5-1c3a-4388-8e7e-9b405aa6905e"
+                "ID": "00c6bd62-a27f-4d61-ad02-495f7039e17f"
               }
             ]
           }
@@ -560,7 +560,7 @@
                     },
                     "value": "%Null%",
                     "compareType": 1,
-                    "Id": "d6617c30-befe-4c65-8b43-b2bff5c09060"
+                    "Id": "b51fb947-acf3-48fc-a817-03e359ecccf3"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -574,9 +574,9 @@
                     },
                     "value": "%Null%",
                     "compareType": 1,
-                    "Id": "9398b346-f239-42e5-92d2-82843381db5b"
+                    "Id": "4a8c4a3a-7f77-45d0-9035-c628ea1630cc"
                   },
-                  "Id": "b28bc8d9-ecea-4060-8ba5-f7d9805395d8"
+                  "Id": "eaa70a30-a559-4512-8520-39962d6b4ab6"
                 },
                 "CommandList": [
                   {
@@ -594,7 +594,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='보고서 형식 프린트'!G5"
                         },
-                        "Id": "d6c144c9-a98d-43be-8bbb-72c1e7cd220a"
+                        "Id": "9ab9f70a-6c02-498f-8b48-75779302b552"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -606,15 +606,15 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='보고서 형식 프린트'!G6"
                         },
-                        "Id": "96249d96-4a2f-4f98-8af6-4db09590fb0d"
+                        "Id": "61be410c-2c88-4c69-810b-af4bcbfa14af"
                       },
-                      "Id": "0ea79a2e-4f9f-44dd-8602-a41cd2997b0c"
+                      "Id": "744cf824-ffd3-4a2d-9442-3edc8f32825a"
                     },
                     "Params": [
                       "=G5",
                       "=G6"
                     ],
-                    "ID": "e3951a86cd3641469239cba3dc8233cd"
+                    "ID": "b3d5f6f70064438fb552d6f1692df04f"
                   },
                   {
                     "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
@@ -638,7 +638,7 @@
                             ]
                           },
                           "value": "%Null%",
-                          "Id": "ba58f447-a0b9-4d71-849a-1a2debb13d39"
+                          "Id": "b6d5a626-05aa-49cc-8fdb-ea519dee2395"
                         },
                         "CommandList": [
                           {
@@ -670,7 +670,7 @@
                             ]
                           }
                         ],
-                        "ID": "057cbfba-6747-4c74-b9c4-06678d37d0c6"
+                        "ID": "f2037f3d-e03a-428d-a710-9f1a75746d58"
                       },
                       {
                         "CommandList": [
@@ -703,12 +703,12 @@
                             ]
                           }
                         ],
-                        "ID": "cb5a4981-c6ce-47cc-8614-c66553e26402"
+                        "ID": "b020fbc8-4d16-400b-905f-d9e0c51e2818"
                       }
                     ]
                   }
                 ],
-                "ID": "4feecf4e-a7db-4b2d-a7b3-ac7d465f9a60"
+                "ID": "1e0e1873-b8f1-48bd-a658-864f94e21820"
               }
             ]
           }
@@ -1548,7 +1548,7 @@
                     ]
                   },
                   "value": "보고서 생성",
-                  "Id": "5ac5cc50-62d8-4496-b136-dc086192ce30"
+                  "Id": "da7adf9b-4c7e-4a78-969a-a6b8f48c3957"
                 },
                 "CommandList": [
                   {
@@ -1566,7 +1566,7 @@
                             ]
                           },
                           "value": "%Null%",
-                          "Id": "5313c66d-81ba-448a-b543-44d344bd00fd"
+                          "Id": "c7e2519c-42ec-41a4-91d3-b08b2248e137"
                         },
                         "CommandList": [
                           {
@@ -1587,7 +1587,7 @@
                             "MessageFormula": "보고자 이름은 필수 입니다."
                           }
                         ],
-                        "ID": "282ec146-6cde-4a84-bc1b-7fbd08fafe2c"
+                        "ID": "e4dfb3b3-624c-4615-8e57-f9744a1ba703"
                       },
                       {
                         "CommandList": [
@@ -1918,12 +1918,12 @@
                             ]
                           }
                         ],
-                        "ID": "eb3f73cc-5c96-4fc9-a4eb-deb9d84502d4"
+                        "ID": "9d59855a-bd80-4f0a-a4b3-d456bf43dff1"
                       }
                     ]
                   }
                 ],
-                "ID": "b0309875-0342-4899-aae1-d4db6b1c962a"
+                "ID": "040ad91f-abad-413a-9da7-3a49ab0abdf3"
               },
               {
                 "Condition": {
@@ -1937,7 +1937,7 @@
                     ]
                   },
                   "value": "보고서 저장",
-                  "Id": "4535c1a1-44cf-4146-a1dd-45db349bca2f"
+                  "Id": "ac664038-80d4-4c60-8dfa-230dfb443bc4"
                 },
                 "CommandList": [
                   {
@@ -1958,7 +1958,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='보고서 형식 프린트'!G5"
                         },
-                        "Id": "f5c41c82-c0fc-4bf3-a12b-451ff8dc7ed8"
+                        "Id": "fdf107ce-006b-4db8-8990-b5979868c10f"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -1970,9 +1970,9 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "='보고서 형식 프린트'!G6"
                         },
-                        "Id": "23cf9990-b2f3-41a9-a803-38fe977e64ca"
+                        "Id": "f560cf63-027c-44ce-b787-d705646ffc79"
                       },
-                      "Id": "22c9835c-a6ee-4b95-84ac-c367b7780740"
+                      "Id": "9c16a4d2-0bfd-4179-83b9-1355adbe5ec3"
                     },
                     "UpdateValues": [
                       {
@@ -2279,7 +2279,7 @@
                     ]
                   }
                 ],
-                "ID": "655396c2-e5b7-4bac-ae8a-f173010a555f"
+                "ID": "da8bb429-4d98-4951-9320-f30933fc7c19"
               },
               {
                 "CommandList": [
@@ -2288,7 +2288,7 @@
                     "MessageFormula": "알 수 없는 오류가 발생했습니다. 관리자에게 문의해 주세요. Error#101"
                   }
                 ],
-                "ID": "d72a3fac-112a-494d-b745-9f5095784edb"
+                "ID": "43778886-aaf7-476d-bf06-99d5d6b5b575"
               }
             ]
           }
@@ -5143,4 +5143,4 @@
     "ShowColumnHeader": 1,
     "ShowRowHeader": 1
   }
-}//yKqLK8csLS6FZLKNFNCQ4l5GrYQ67kZiEJSl3iIFIyViax7hzltbT9Wi4RbSMFgZas4UrnIuktQbvnYkbJ3hTRuUM9JhYLUBqWCJ7P8eP8sY9P+bUqG6cJCqSIcvCl8JnraLZUkYimefXTKdtIF54k+R4PFuTBgMfgPSWxFaIiSvUbrCVbnLuKoYHTJTrOA1l5iJd1mJuwOdv8JJJJQnPQ4uIoyTGunXLjd+LfaZWOJz5o4iksqx054yFRrhRlMMuCh88BxiQDvXysdf88l10Vc5ZE3LezcvaCl7vCcJ/JbJqpxMyu34V+6eXhvB++ja5FXXw6AoNNSQtV6xgR9hKMF8Nx80+4QetWIuF4jUDz/bO02t9gpN7qg3KMPgb0KtvuPqPYFRAt7quiZtR1gKN+GYh634wK9pFvbfU9MzZHxXAWlSmOtXWYRrSoAa9tNKQveWCoGAv06ETDy7O7z4p4cmFvetEYQQKG53gMm8QqxxO74QCFerH3PUC7p66cht79wUyQnvXzRjsBpA/xoBaxQz/J+flTffKinc75BjZz00EBI3pfPYKLp2Zg8Z5bWw32T7S5eFTmiBdDccKcecjoKAvW8ADWcu0GpTJo2XtXEdnUudBj3BV3HWehqd1TuKficJuSVQQkhV+M1yiqEKsgr92XTVaAg8XOlQR8fnEy9EqX7oLt2qkS1kKlhUiKIrxpn/uHjjn7XCsExVo4bXJtNi7SDrvKGetmGVf0FyzlwFP4sNWkdy+Yc2FZlr81pOnA0dsTJMMfAe0ANgRdz9qj44okddWkBU1zLCtUUVOAcBUQtPTPbRYTToyaDVTQltb5RHONzNi/Rwo4HZ0fZ2qaycHnql/xizWsw8SlljWNaLIPOtKcxZSXE/r01wqt7tn5qKHrY5RVHPdD3Zj3wf9A==|920
+}//XMSzCO1fip3ccBKdfrnXTDXPtQGqxFwqZ9V6vTVBKY7HGrcH9VZCDWVi3pL2peL6D4G8OhHec7TQwogr0uH5Bl9GBQdV0D6X4sdtlma+7VvbKDc2u3JKqx2lMtHWEMlZZVTNFqRgbpcSNsqycq7IYX3sIA7rRjk8titIOHWy1SFchKaSwJTzLxMU4XK7uvn9dY6OJgunu7sBMVcE9rbssMZY+k+4vZFukIOZ2fCxScf39r8eyT7LPhhGNEzRnnclzb+19ZO+ownI6xhHKCQKYOOkKf7yBlK5DVVJbaOvuZ4nAVZdVzb1qOw1tLgtLvXiL3oBzVqeqwTSFWXLwU/go/WxXhTQZ3EOMJZJuX4gKbzKlwohoe8vYLRLPshQBNU+g2kWkp4w+yo/ha8emz7OonqX+LNheYWegzeFwfdze2Q5hYoybAwoXuUiOd1xFe9VznZxofouwoMmlob9kklIGiCR/qRp3QxFPe7URds6ZU0vSmZN3fL9IYLmRgCjW0xdddL+zWj3I2AUr3XTfqCK2IIfgsWt3zfAwgmpwqR83zZFDbqnaZfNBiwTy+PLdZyWHfzFICsG6lCdYaaJXWdbPiX4YJA7tWSxpYgS7+s5i3FfW9TWRNoyNK+xhWTZ8f5d9ThRbk6//YzNhuacs2csbKBU33wvEQ5QW168HTqZpNA1hLJKRqJ0LLfP9zMzinqAPvhOP5legXkLq9I3Ve4n8yO1wnNbT6AGQOH9hwwbBxZqeKl+zs/6XwEC9hCHgG4XNz/hZjSDvR/UcTfvon7Qm152Rx6DrzUHzDbEvI+iMuPCZVQP9G0Mc289xi8LwaY0wbzCzgHfFsN2Wh2GCCUnUAvDkCOhfOyOn9B9ho4rLvTf0TxdupXYrodYKjXcRlLaKuOXAGzFsNs+/OAr8fPVWQ==|920

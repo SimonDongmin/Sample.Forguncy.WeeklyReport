@@ -25,7 +25,6 @@
   <MaxRowCount>10000000</MaxRowCount>
   <NotAllowModifyDatabaseByJsApi>False</NotAllowModifyDatabaseByJsApi>
   <StartDateFiscalYear>4</StartDateFiscalYear>
-  <StartPage>051_보고서 형식 프린트</StartPage>
   <UserServicePort>37731</UserServicePort>
   <WebSitePort>46818</WebSitePort>
 </ApplicationSettings>
