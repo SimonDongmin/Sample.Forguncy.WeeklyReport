@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ShareCommand>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
+    <Commands>
+      <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="ServerDesignerCommon">
+        <PropertyItemsList>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>R5</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AQ10</Value>
+            </Value>
+          </Item>
+        </PropertyItemsList>
+      </Item>
+      <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="ServerDesignerCommon">
+        <PropertyItemsList>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C10</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AR10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C11</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AS10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C12</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AT10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C13</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AU10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C14</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AV10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C15</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AW10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C16</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AX10</Value>
+            </Value>
+          </Item>
+        </PropertyItemsList>
+      </Item>
+      <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="ServerDesignerCommon">
+        <PropertyItemsList>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>U10</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AY10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>U11</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=AZ10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>U12</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BA10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>U13</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BB10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>U14</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BC10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>U15</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BD10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>U16</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BE10</Value>
+            </Value>
+          </Item>
+        </PropertyItemsList>
+      </Item>
+      <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="ServerDesignerCommon">
+        <PropertyItemsList>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C20</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BF10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>Z20</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BG10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>AE20</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BH10</Value>
+            </Value>
+          </Item>
+        </PropertyItemsList>
+      </Item>
+      <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="ServerDesignerCommon">
+        <PropertyItemsList>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C25</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BI10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>I25</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BJ10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>M25</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BK10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C26</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BL10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>I26</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BM10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>M26</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BN10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C27</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BO10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>I27</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BP10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>M27</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BQ10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C28</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BR10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>I28</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BS10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>M28</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BT10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C29</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BU10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>I29</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BV10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>M29</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BW10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C30</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BX10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>I30</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BY10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>M30</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=BZ10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C31</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=CA10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>I31</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=CB10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>M31</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=CC10</Value>
+            </Value>
+          </Item>
+        </PropertyItemsList>
+      </Item>
+      <Item class="Forguncy.Model.SetCellPropertyCommand" assembly="ServerDesignerCommon">
+        <PropertyItemsList>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>C37</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=CJ10</Value>
+            </Value>
+          </Item>
+          <Item class="Forguncy.Model.SetCellPropertyItem" assembly="ServerDesignerCommon">
+            <TargetCells class="Forguncy.Model.FormulaReferObject" assembly="ServerDesignerCommon">
+              <SerializeProperty>U37</SerializeProperty>
+            </TargetCells>
+            <Value type="System.String">
+              <Value>=CK10</Value>
+            </Value>
+          </Item>
+        </PropertyItemsList>
+      </Item>
+    </Commands>
+    <ID>e3b21704-b428-40d8-be5d-35b3ac743db8</ID>
+    <Name>보고서내용변경</Name>
+  </Item>
+  <Item class="Forguncy.Model.ShareCommandContainer" assembly="ServerDesignerCommon">
+    <Commands>
+      <Item class="Forguncy.Model.ShowMessageCommand" assembly="ServerDesignerCommon">
+        <MessageFormula type="System.String">
+          <Value>test</Value>
+        </MessageFormula>
+      </Item>
+    </Commands>
+    <ID>4f76a78e-db6b-4f53-9f42-81a93110d61a</ID>
+    <Name>TestSC01</Name>
+    <Params>
+      <Item class="Forguncy.Model.ShareCommandParam" assembly="ServerDesignerCommon">
+        <ID>95907194-541e-4592-83d3-158445cebabe</ID>
+        <Name>Parameter1</Name>
+      </Item>
+    </Params>
+  </Item>
+</ShareCommand>
