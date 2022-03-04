@@ -144,7 +144,16 @@
   },
   {
     "ModuleName": "ShareCommand",
-    "ModuleType": 13
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-04T15:07:52.2844757+09:00",
+    "ModuleType": 13,
+    "ToRemoveFiles": [
+      "ShareCommand"
+    ]
   },
   {
     "ModuleName": "MapJsonFile",
