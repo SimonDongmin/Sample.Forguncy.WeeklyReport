@@ -176,5 +176,15 @@
     },
     "LockDateTime": "2022-03-04T13:59:19.4500371+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/페이지1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-04T15:26:21.8023802+09:00",
+    "ModuleType": 1
   }
 ]
