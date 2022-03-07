@@ -168,7 +168,16 @@
   },
   {
     "ModuleName": "PCPage/보고서 뷰",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-07T15:53:33.3315935+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\폴더 가져오기1\\보고서 뷰.json"
+    ]
   },
   {
     "ModuleName": "PCPage/보고서 작성",
