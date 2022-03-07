@@ -227,5 +227,25 @@
     "LockDateTime": "2022-03-07T09:53:39.1575679+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "PCPage/DEMO_DB_상세 페이지",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-07T11:11:40.9132851+09:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/DEMO_DB_목록 페이지",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-07T11:11:40.9132851+09:00",
+    "ModuleType": 1
   }
 ]
