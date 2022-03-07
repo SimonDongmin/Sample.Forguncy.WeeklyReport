@@ -194,6 +194,13 @@
   },
   {
     "ModuleName": "Pages/폴더 가져오기1",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-07T15:53:45.4809675+09:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": []
   }
 ]
