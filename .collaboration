@@ -1,12 +1,32 @@
 [
   {
     "ModuleName": "Table/DEMO_DB",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-07T09:48:41.2216396+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\DEMO_DB.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/DEMO_SELECT_ITEMS",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-07T09:48:41.2216396+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\DEMO_SELECT_ITEMS.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -196,5 +216,16 @@
     },
     "LockDateTime": "2022-03-04T15:49:46.6312395+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/DEMO_IMAGE",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-07T09:48:41.2216396+09:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
