@@ -6,7 +6,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-07T09:53:39.1575679+09:00",
+    "LockDateTime": "2022-03-07T14:13:24.8500662+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DEMO_DB.json",
@@ -21,7 +21,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-07T09:53:39.1575679+09:00",
+    "LockDateTime": "2022-03-07T14:13:24.8500662+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DEMO_SELECT_ITEMS.json",
@@ -216,16 +216,5 @@
     },
     "LockDateTime": "2022-03-04T15:49:46.6312395+09:00",
     "ModuleType": 1
-  },
-  {
-    "ModuleName": "Table/DEMO_SIGN",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-07T09:53:39.1575679+09:00",
-    "ModuleType": 7,
-    "ExclusiveType": 0
   }
 ]
