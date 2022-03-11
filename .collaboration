@@ -6,7 +6,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-11T13:20:15.1224151+09:00",
+    "LockDateTime": "2022-03-11T13:20:30.8840927+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DEMO_DB.json",
@@ -21,7 +21,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-11T13:20:15.1224151+09:00",
+    "LockDateTime": "2022-03-11T13:20:30.8840927+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DEMO_SELECT_ITEMS.json",
@@ -220,5 +220,16 @@
     "ToRemoveFiles": [
       "Pages\\보고서 작성.json"
     ]
+  },
+  {
+    "ModuleName": "Table/DEMO_ASSET",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-11T13:20:30.8840927+09:00",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   }
 ]
