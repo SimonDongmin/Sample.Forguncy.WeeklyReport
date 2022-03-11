@@ -230,15 +230,5 @@
     "ToRemoveFiles": [
       "Pages\\보고서 작성.json"
     ]
-  },
-  {
-    "ModuleName": "Pages/월간보고현황",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-11T17:18:28.3152903+09:00",
-    "ModuleType": 6
   }
 ]
