@@ -230,15 +230,5 @@
     "ToRemoveFiles": [
       "Pages\\보고서 작성.json"
     ]
-  },
-  {
-    "ModuleName": "PCPage/연결 재무상태 뷰",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-11T13:42:45.8873569+09:00",
-    "ModuleType": 1
   }
 ]
