@@ -261,5 +261,15 @@
     "LockDateTime": "2022-03-14T04:33:19.0242959+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "PCPage/주간보고서 작성3",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-14T05:59:48.6756825+09:00",
+    "ModuleType": 1
   }
 ]
