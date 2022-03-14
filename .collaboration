@@ -6,7 +6,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-14T07:18:40.3416724+09:00",
+    "LockDateTime": "2022-03-14T15:26:18.2673638+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DEMO_DB.json",
@@ -21,7 +21,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-14T07:18:40.3416724+09:00",
+    "LockDateTime": "2022-03-14T15:26:18.2673638+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DEMO_SELECT_ITEMS.json",
@@ -258,7 +258,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-14T07:18:40.3416724+09:00",
+    "LockDateTime": "2022-03-14T15:26:18.2673638+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -279,7 +279,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-14T07:18:40.3416724+09:00",
+    "LockDateTime": "2022-03-14T15:26:18.2673638+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -292,5 +292,16 @@
     },
     "LockDateTime": "2022-03-14T07:37:47.5103995+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "TableView/보기1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-14T15:26:18.2673638+09:00",
+    "ModuleType": 23,
+    "ExclusiveType": 0
   }
 ]
