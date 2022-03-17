@@ -406,5 +406,15 @@
     },
     "LockDateTime": "2022-03-17T10:00:27.1316719+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/보고서 리스트2 (2)",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-17T12:09:52.3096826+09:00",
+    "ModuleType": 1
   }
 ]
