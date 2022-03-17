@@ -490,5 +490,15 @@
     },
     "LockDateTime": "2022-03-17T15:25:28.4580813+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/폴더1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-17T15:26:20.7235072+09:00",
+    "ModuleType": 6
   }
 ]
