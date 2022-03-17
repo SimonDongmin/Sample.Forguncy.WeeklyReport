@@ -18,6 +18,7 @@
       </Value>
     </Item>
   </AuditingList>
+  <FocusMoveMode>Default</FocusMoveMode>
   <IntegrateWithOtherApplication>
     <Password>W5%!f8Dzxj!1</Password>
   </IntegrateWithOtherApplication>
@@ -25,6 +26,7 @@
   <MaxRowCount>10000000</MaxRowCount>
   <NotAllowModifyDatabaseByJsApi>False</NotAllowModifyDatabaseByJsApi>
   <StartDateFiscalYear>4</StartDateFiscalYear>
+  <StartPage>시작페이지</StartPage>
   <UserServicePort>37731</UserServicePort>
   <WebSitePort>46818</WebSitePort>
 </ApplicationSettings>

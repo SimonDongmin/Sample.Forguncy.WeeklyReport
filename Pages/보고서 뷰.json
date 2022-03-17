@@ -161,6 +161,16 @@
           "DesignLengthInPixel": 25.0
         }
       },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
       "35": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 10.0
@@ -209,16 +219,6 @@
       "44": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0
-        }
-      },
-      "33": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 25.0
-        }
-      },
-      "34": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 25.0
         }
       }
     },
@@ -818,7 +818,8 @@
     "37,2": "4. 경영진 지시사항",
     "38,2": "회장님 지시사항",
     "38,22": "대표님 지시사항",
-    "41,19": "출력하기"
+    "41,15": "Excel로 출력",
+    "41,23": "PDF로 출력"
   },
   "Formulas": {
     "1,14": "IF(G2=\"\",\"\",G2-1)",
@@ -855,27 +856,41 @@
     "20,24": "ODATA(\"DEMO_DB?$select=다움주_진척목표&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
     "20,2": "ODATA(\"DEMO_DB?$select=다음주_업무목표&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
     "16,44": "IFERROR(ODATA(\"DEMO_DB?$select=지난주7&$filter=ID eq \"&IF(ISBLANK($C$10),\"null\",$C$10)),\"\")",
-    "16,22": "ODATA(\"DEMO_DB?$select=이번주7&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "16,45": "IFERROR(ODATA(\"DEMO_DB?$select=이번주7&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2)),\"\")",
     "16,2": "IF(AS17=0,\"\",AS17)",
     "15,44": "IFERROR(ODATA(\"DEMO_DB?$select=지난주6&$filter=ID eq \"&IF(ISBLANK($C$10),\"null\",$C$10)),\"\")",
-    "15,22": "ODATA(\"DEMO_DB?$select=이번주6&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "15,45": "IFERROR(ODATA(\"DEMO_DB?$select=이번주6&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2)),\"\")",
     "15,2": "IF(AS16=0,\"\",AS16)",
     "14,44": "IFERROR(ODATA(\"DEMO_DB?$select=지난주5&$filter=ID eq \"&IF(ISBLANK($C$10),\"null\",$C$10)),\"\")",
-    "14,22": "ODATA(\"DEMO_DB?$select=이번주5&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "14,45": "IFERROR(ODATA(\"DEMO_DB?$select=이번주5&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2)),\"\")",
     "14,2": "IF(AS15=0,\"\",AS15)",
     "13,44": "IFERROR(ODATA(\"DEMO_DB?$select=지난주4&$filter=ID eq \"&IF(ISBLANK($C$10),\"null\",$C$10)),\"\")",
-    "13,22": "ODATA(\"DEMO_DB?$select=이번주4&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "13,45": "IFERROR(ODATA(\"DEMO_DB?$select=이번주4&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2)),\"\")",
     "13,2": "IF(AS14=0,\"\",AS14)",
     "12,44": "IFERROR(ODATA(\"DEMO_DB?$select=지난주3&$filter=ID eq \"&IF(ISBLANK($C$10),\"null\",$C$10)),\"\")",
-    "12,22": "ODATA(\"DEMO_DB?$select=이번주3&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "12,45": "IFERROR(ODATA(\"DEMO_DB?$select=이번주3&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2)),\"\")",
     "12,2": "IF(AS13=0,\"\",AS13)",
     "11,44": "IFERROR(ODATA(\"DEMO_DB?$select=지난주2&$filter=ID eq \"&IF(ISBLANK($C$10),\"null\",$C$10)),\"\")",
-    "11,22": "ODATA(\"DEMO_DB?$select=이번주2&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "11,45": "IFERROR(ODATA(\"DEMO_DB?$select=이번주2&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2)),\"\")",
     "11,2": "IF(AS12=0,\"\",AS12)",
     "10,44": "IFERROR(ODATA(\"DEMO_DB?$select=지난주1&$filter=ID eq \"&IF(ISBLANK($C$10),\"null\",$C$10)),\"\")",
     "10,2": "IF(AS11=0,\"\",AS11)",
-    "10,22": "ODATA(\"DEMO_DB?$select=이번주1&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
-    "7,2": "ODATA(\"DEMO_DB?$select=주차구분&$filter=ID eq \"&IF(ISBLANK(G2),\"null\",G2))&\" 보고서\""
+    "10,45": "IFERROR(ODATA(\"DEMO_DB?$select=이번주1&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2)),\"\")",
+    "7,2": "ODATA(\"DEMO_DB?$select=주차구분&$filter=ID eq \"&IF(ISBLANK(G2),\"null\",G2))&\" 보고서\"",
+    "2,6": "ODATA(\"DEMO_DB?$select=날짜구분&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "3,6": "ODATA(\"DEMO_DB?$select=팀구분&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "4,6": "ODATA(\"DEMO_DB?$select=보고자&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "5,30": "ODATA(\"DEMO_DB?$select=날짜구분&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "5,33": "ODATA(\"DEMO_DB?$select=날짜구분&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "5,36": "ODATA(\"DEMO_DB?$select=날짜구분&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "5,39": "ODATA(\"DEMO_DB?$select=날짜구분&$filter=ID eq \"&IF(ISBLANK($G$2),\"null\",$G$2))",
+    "10,22": "IF(AT11=0,\"\",AT11)",
+    "11,22": "IF(AT12=0,\"\",AT12)",
+    "12,22": "IF(AT13=0,\"\",AT13)",
+    "13,22": "IF(AT14=0,\"\",AT14)",
+    "14,22": "IF(AT15=0,\"\",AT15)",
+    "15,22": "IF(AT16=0,\"\",AT16)",
+    "16,22": "IF(AT17=0,\"\",AT17)"
   },
   "AttachInfos": {
     "2,30": {
@@ -929,7 +944,7 @@
           },
           "LeftBracket": 1,
           "RightBracket": 1,
-          "Id": "cca52e02-ec88-434e-9ace-f932f11d7563"
+          "Id": "8d959f7e-4ac6-469c-aaac-67693b955b26"
         },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2"
@@ -1291,7 +1306,24 @@
         }
       }
     },
-    "41,19": {
+    "41,15": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "ExportExcelPageNameMode": 2,
+            "NewOtherName": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='보고서 뷰'!C8"
+            }
+          }
+        ],
+        "Text": "Excel로 출력",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "41,23": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -1302,15 +1334,15 @@
             "NewOtherName": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=CONCATENATE('보고서 뷰'!G3,'보고서 뷰'!G4,'보고서 뷰'!C8)"
-            },
-            "Disabled": true
+            }
           },
           {
             "$type": "Forguncy.Model.PrintCommand, ServerDesignerCommon",
-            "HiddenPrintElement": false
+            "HiddenPrintElement": false,
+            "Disabled": true
           }
         ],
-        "Text": "출력하기",
+        "Text": "PDF로 출력",
         "TemplateKey": "_RS_Normal_Style2"
       }
     }
@@ -1941,6 +1973,14 @@
         "FontSize": 12.0,
         "Formatter": 13,
         "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -2958,7 +2998,31 @@
       "39,39": 1,
       "39,40": 1,
       "39,41": 3,
-      "39,42": 85
+      "39,42": 85,
+      "41,15": 86,
+      "41,16": 19,
+      "41,17": 19,
+      "41,18": 19,
+      "41,19": 19,
+      "41,20": 19,
+      "41,23": 86,
+      "41,24": 19,
+      "41,25": 19,
+      "41,26": 19,
+      "41,27": 19,
+      "41,28": 19,
+      "42,15": 19,
+      "42,16": 19,
+      "42,17": 19,
+      "42,18": 19,
+      "42,19": 19,
+      "42,20": 19,
+      "42,23": 19,
+      "42,24": 19,
+      "42,25": 19,
+      "42,26": 19,
+      "42,27": 19,
+      "42,28": 19
     },
     "SheetStyle": {
       "FontFamily": 0,
@@ -2989,19 +3053,12 @@
     "9,2,1,20",
     "9,22,1,20",
     "10,2,1,20",
-    "10,22,1,20",
     "11,2,1,20",
-    "11,22,1,20",
     "12,2,1,20",
-    "12,22,1,20",
     "13,2,1,20",
-    "13,22,1,20",
     "14,2,1,20",
-    "14,22,1,20",
     "15,2,1,20",
-    "15,22,1,20",
     "16,2,1,20",
-    "16,22,1,20",
     "18,2,1,20",
     "19,2,1,22",
     "19,24,1,6",
@@ -3045,14 +3102,22 @@
     "38,22,1,20",
     "39,2,1,20",
     "39,22,1,20",
-    "41,19,2,6",
     "5,44,1,49",
     "2,2,1,4",
     "2,6,1,8",
     "3,2,1,4",
     "3,6,1,8",
     "4,2,1,4",
-    "4,6,1,8"
+    "4,6,1,8",
+    "10,22,1,20",
+    "11,22,1,20",
+    "12,22,1,20",
+    "13,22,1,20",
+    "14,22,1,20",
+    "15,22,1,20",
+    "16,22,1,20",
+    "41,15,2,6",
+    "41,23,2,6"
   ],
   "Charts": [
     {
@@ -3257,7 +3322,7 @@
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
       "Name": "Chart1",
-      "Location": "37,676",
+      "Location": "40,704",
       "Size": "803,326",
       "DynamicMove": false,
       "DynamicSize": false
@@ -3283,4 +3348,4 @@
     "ZoomFactor": 0.84999999999999987,
     "PaperSize": {}
   }
-}//5s4C/Fb5Ac6d4wdtxbaiYBXGEAWi474VXdyLyTKCXS1J9pLwFSP8ek5082s93Jo+RRXbU67sutb2J5VPaALOLUehxcWn6GzyHmrRc6+lBZDT7+PvNRvfa82CvFTStg1T7pTBusVDyMKjszx28/j30FsY8Mn6oq7co3V3Kgyf/TfAlscuviWXb8sAt2ZJyUQ+bHL9l75RDrC4RdPtowX/ZxonaP0/bDdVQQtPXsGGioaNlPM6LnfWMy4Sfm2Klafeia6/6hkZssXtwxnYk8U8D1ref0DnaEJl7r8B9QiaHDZn0bFwtuOX0iVZt6rV1QEorSb1rCn5iag4cBM3I/KLfNOmYCOt7RnltZbMQEp1U9mj041iHGTmJ6mF65N2oEOks7oVSS2YuMERqVxp53J1rnv2jSGMwFdV969eKGHa1ka+Mx9D6QhKrTFbIGcQmODeNk5XnPyZ5d2zpQJMguABMiwx9izXy7mIyNBSCxhQ/o3u07eZ6Vl8mVF62/h46teP+Gwzf2krqDYOHT8siqwT8YRVONZBQ+V+yJgM4x8cX7GXatAmrrlbiSx52CELEFnVAyTI341SdZcJxECawbpEEW9Xi2KZqOmUWxFj2zWpyotr1CkfPIrJviC+AF4exYJtPLMCqosaKdAw8DDjvMuDtS6SAlJff1R/SRNl275N/RfeWkOBDju0RW1q4AreT6UWanOdt1xtrxiRTqv5SsrcrStFW0nhYMhaIRYtnTfswM6sndWJl8avGmwLZt07JWzCVKBm9DzLXarVjGMHKvyq3COfpgKHjXUB3OFB/iOC8yGkDsJx6lSdULA7m8nyrly+89vbMipC7uhyKlvParR+CwW8HE41re+nlV5JhAJ+WKIqOn7/gMZhKe9T622n/C+YgmN5pkXZqdfx+LlUAxH5dg==|920
+}//UqNGwlAbNGsx/DxQa29ra9NHRdz5BNrg98aJPRTXo53hsbCwo0D3tV/+uZn3dKQXg7+9H6QJ9l4V2g6JndqkTa9Hnl8FKNol3yoSg8gCAHJdlHloE1GP29LpVjt6NUchqgxuyh2QO/6kBhZHrqQkf/5R+z2zZNhZCVuLTS3v3WP0D+uNNFX+YPiu0d1RhNXfg5gN66Z0lTYA3sR1hbpQelU6Vy8dpIUhOwSld+MccZsrFfwbTR3jx18E2aDdblAw6F0RajY99oBxIKs5vj4PPRqtipZUaR1wDnj4DafwGbVl/XtvXANJJr9Wx/yxVezK/02N6N7AxfMpGXXpUYpstx3516ztWxVJYQXF+2CeEDw86LdzYJbiZrtSc/VmP2SSfw0lu/lTD1uVnUicRoIP80PGDBJijYfquo5AMVa8v1WOVdgj5pCdQyF9mSHhpI9tIqWo2yx5bRZ21sl9DmrYmZ+2L382Cd4jEBQwfT7ztTETS3g/+l2GXX/JJQz4tt5eUcKfwIkrkVeufbsyR8WvN7j6yVS6Vw4S881JAnHO8x+xgFODGuPIecxa1k4Gb2gp8AYd/Ase2nHthsFVGXaB3xMU70tK5UpLden2HljU5IpiSYpTCAynGuf8Ze8rbBBsr59GkPbw4d9lt/PlT+WaAPJ17WYYtDlnFDy66qGzLq8w3K0F5WrbJXqVlftjVAGtbZUvN65/UTFhmsOl+IddTFiNoJ2vUXLFZyhyQjE/zyFkI/1pu2fFimg7Ynt8nKri+lc7XQhCtgiWa/rKZ/HYcX6iTzGnU570jxTyEzd10J22Bx0oVGbN/YVH+yO28sVzQDI+4Cd80K0XeGOXuS5WNzfIiQGhtfuH9Za8PCWgtuQ+E+DnhmMyJo2w1SKukA3lXt4dVl7x2JYYvWx0eARCVQ==|920
