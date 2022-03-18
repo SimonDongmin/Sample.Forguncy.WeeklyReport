@@ -298,7 +298,16 @@
   },
   {
     "ModuleName": "PCPage/보고서 리스트3",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-18T13:15:37.3666307+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\보고서 리스트3.json"
+    ]
   },
   {
     "ModuleName": "PCPage/주간보고서 작성2",
