@@ -157,7 +157,20 @@
   },
   {
     "ModuleName": "Theme",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-18T14:16:30.4249766+09:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig",
+      "C:\\Users\\USER\\OneDrive - GrapeCity Group\\Documents\\ForguncyCollaboration\\Sample.Forguncy.WeeklyReport-master\\Reports\\DefaultTheme.rdlx-theme"
+    ]
   },
   {
     "ModuleName": "ImageSelector",
@@ -398,7 +411,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-18T11:34:33.036079+09:00",
+    "LockDateTime": "2022-03-18T14:16:30.4249766+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\보고서 리스트2.json"
