@@ -261,7 +261,16 @@
   },
   {
     "ModuleName": "PCPage/주간보고서 뷰3",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-18T12:03:47.9577739+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\주간보고서 뷰3.json"
+    ]
   },
   {
     "ModuleName": "PCPage/시작페이지",
