@@ -189,7 +189,16 @@
   },
   {
     "ModuleName": "PCPage/페이지1",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-18T11:34:04.0752913+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\페이지1.json"
+    ]
   },
   {
     "ModuleName": "PCPage/보고서 뷰",
