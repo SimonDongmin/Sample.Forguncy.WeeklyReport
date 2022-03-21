@@ -154,16 +154,7 @@
   },
   {
     "ModuleName": "PCPage/보고서 리스트 Type-C",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T17:46:36.3562997+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\보고서 리스트 Type-C.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/보고서 뷰 Type-A",
@@ -203,19 +194,6 @@
     "ModuleName": "Table/DEMO_TYPE_C",
     "ModuleType": 7,
     "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "PCPage/주간보고서 수정 Type-C",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T17:46:36.3562997+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주간보고서 수정 Type-C.json"
-    ]
   },
   {
     "ModuleName": "PCPage/보고서 리스트 Type-C 내부 쿼리",
