@@ -201,7 +201,16 @@
   },
   {
     "ModuleName": "MasterPCPage/마스터 페이지1",
-    "ModuleType": 3
+    "State": 2,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T17:45:33.1573494+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\마스터 페이지1.json"
+    ]
   },
   {
     "ModuleName": "PCPage/보고서 리스트 Type-C 내부 쿼리",
