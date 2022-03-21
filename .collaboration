@@ -293,5 +293,15 @@
     "ModuleName": "Table/DEMO_TYPE_C",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "PCPage/주간보고서 수정 Type-C",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T15:51:42.868651+09:00",
+    "ModuleType": 1
   }
 ]
