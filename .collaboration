@@ -127,7 +127,16 @@
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T11:02:35.4683237+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\FGC_유저마스터페이지.json"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -255,7 +264,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T09:45:33.2136996+09:00",
+    "LockDateTime": "2022-03-21T11:02:35.4673191+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\보고서 작성.json"
@@ -350,7 +359,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T09:45:33.2127008+09:00",
+    "LockDateTime": "2022-03-21T11:02:35.4683237+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\시작페이지.json"
@@ -384,15 +393,25 @@
   },
   {
     "ModuleName": "PCPage/보고서 리스트",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T09:45:33.2127008+09:00",
+    "LockDateTime": "2022-03-21T11:02:35.4673191+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\보고서 리스트.json"
     ]
+  },
+  {
+    "ModuleName": "PCPage/보고서 리스트 Type-A",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T11:02:35.4673191+09:00",
+    "ModuleType": 1
   }
 ]
