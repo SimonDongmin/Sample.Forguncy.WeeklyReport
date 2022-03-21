@@ -154,7 +154,16 @@
   },
   {
     "ModuleName": "PCPage/보고서 리스트 Type-C",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T14:53:46.9035954+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\보고서 리스트 Type-C.json"
+    ]
   },
   {
     "ModuleName": "PCPage/보고서 뷰 Type-A",
