@@ -293,5 +293,15 @@
     "ModuleName": "Table/DEMO_TYPE_C",
     "ModuleType": 7,
     "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "MasterPCPage/마스터 페이지1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T15:34:56.2613842+09:00",
+    "ModuleType": 3
   }
 ]
