@@ -1,32 +1,7 @@
 [
   {
-    "ModuleName": "Table/DEMO_DB",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:08:23.1029538+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\DEMO_DB.json",
-      "ForguncyDB.sqlite3"
-    ],
-    "ExclusiveType": 0
-  },
-  {
     "ModuleName": "Table/DEMO_SELECT_ITEMS",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\DEMO_SELECT_ITEMS.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -127,30 +102,11 @@
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:03:18.4969384+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\FGC_유저마스터페이지.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "ApplicationSetting",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:00.8080589+09:00",
-    "ModuleType": 8,
-    "ToRemoveFiles": [
-      "ApplicationSettings",
-      "favicon.ico"
-    ]
+    "ModuleType": 8
   },
   {
     "ModuleName": "Theme",
@@ -158,77 +114,7 @@
   },
   {
     "ModuleName": "ImageSelector",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T10:30:13.0648425+09:00",
-    "ModuleType": 10,
-    "ToRemoveFiles": [
-      "image\\001.png",
-      "image\\001_excel.png",
-      "image\\002.png",
-      "image\\002_web_mobile.png",
-      "image\\003.png",
-      "image\\004.png",
-      "image\\005.png",
-      "image\\00_GCK_location.jpg",
-      "image\\01_login_method.png",
-      "image\\02_fgc_authentication.png",
-      "image\\03_windows_authentication.png",
-      "image\\04_3rd_party_authentication.png",
-      "image\\05_fgc_permission_by_page.png",
-      "image\\06_fgc_permission_by_ui.png",
-      "image\\07_fgc_permission_by_data.png",
-      "image\\08_menu_authority01.png",
-      "image\\08_report_version_control.png",
-      "image\\09_intro.png",
-      "image\\101_hyosung_logo_header.png",
-      "image\\102_gck_bakcground.png",
-      "image\\102_hyosung_main_visual_slide_2.jpg",
-      "image\\103_gc_global_map.png",
-      "image\\104_gc_firm_org.png",
-      "image\\107_hyosung_process.png",
-      "image\\collaboration.png",
-      "image\\collect_manage.png",
-      "image\\create_signature_db_1467796300698.png",
-      "image\\database_convert.png",
-      "image\\excel_UI.jpg.png",
-      "image\\F-arrow.png",
-      "image\\fgc_grid.png",
-      "image\\fgc_logo_dark.png",
-      "image\\fgc_logo_light.png",
-      "image\\fgc_ui.png",
-      "image\\Forguncy_Round.png",
-      "image\\formular_converting.png",
-      "image\\geoJson.png",
-      "image\\grapecity_logo.png",
-      "image\\grapecity_logo1.png",
-      "image\\grapecity_logo_purple.png",
-      "image\\js_and_css.png",
-      "image\\Microsoft-Gold-Certified-Partner.gif",
-      "image\\plugins.png",
-      "image\\publishing1.png",
-      "image\\Round - AR.png",
-      "image\\Round - C1.png",
-      "image\\Round - Spread.png",
-      "image\\Round - SpreadJS.png",
-      "image\\Round - Wijmo.png",
-      "image\\SAoSMlVH_400x400.jpg",
-      "image\\signiture_jake.png",
-      "image\\signiture_michaeljackson.png",
-      "image\\signiture_none.png",
-      "image\\system_integration.png",
-      "image\\theme_condition.png",
-      "image\\공정성.png",
-      "image\\생산성.png",
-      "image\\전문성.png",
-      "image\\화면 캡처 2022-03-15 102201.png",
-      "image\\화면 캡처 2022-03-15 134257.png",
-      "image\\화면 캡처 2022-03-16 103337.png",
-      "image\\화면 캡처 2022-03-16 135618.png"
-    ]
+    "ModuleType": 10
   },
   {
     "ModuleName": "UserService",
@@ -255,285 +141,57 @@
     "ModuleType": 26
   },
   {
-    "ModuleName": "PCPage/보고서 뷰",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:07:18.3886536+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\보고서 뷰.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/보고서 작성",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:07:27.5814863+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\보고서 작성.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/보고서 리스트3",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:03:18.4969384+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\보고서 리스트3.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/주간보고서 작성2",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:07:36.8937908+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주간보고서 작성2.json"
-    ]
-  },
-  {
-    "ModuleName": "Table/DEMO_DB2",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:08:34.7146365+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\DEMO_DB2.json",
-      "ForguncyDB.sqlite3"
-    ],
-    "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "PCPage/주간보고서 작성3",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:07:59.8746207+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주간보고서 작성3.json"
-    ]
-  },
-  {
-    "ModuleName": "Table/DEMO_DB3",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:08:43.7837821+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\DEMO_DB3.json",
-      "ForguncyDB.sqlite3"
-    ],
-    "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "PCPage/주간보고서 뷰3",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:08:08.7476145+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주간보고서 뷰3.json"
-    ]
-  },
-  {
     "ModuleName": "PCPage/시작페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:03:18.4969384+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\시작페이지.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/보고서 리스트2",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:02:48.8933657+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\보고서 리스트2.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/주간보고서 뷰2",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:07:47.2245702+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\주간보고서 뷰2.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/보고서 리스트",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:02:35.4673191+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\보고서 리스트.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/보고서 리스트 Type-A",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:00.8070661+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/보고서 리스트 Type-B",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:08.770594+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/보고서 리스트 Type-C",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/보고서 뷰 Type-A",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:00.8080589+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/보고서 작성 Type-A",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:00.8070661+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/주간보고서 작성 Type-B",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:08.770594+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/주간보고서 뷰 Type-B",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:07:47.2245702+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/주간보고서 작성 Type-C",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/주간보고서 뷰 Type-C",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T11:08:08.7476145+09:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Table/DEMO_TYPE_A",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/DEMO_TYPE_B",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/DEMO_TYPE_C",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "SIMON\\USER",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }

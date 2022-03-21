@@ -317,18 +317,18 @@
     "37,2": "IF(AM14=0,\"\",AM14)",
     "15,14": "IF(AM15=\"\",\"\",(AM15*100)&\"%\")",
     "6,27": "Y10",
-    "13,39": "IFERROR(ODATA(\"DEMO_DB3?$select=애로및건의사항&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "13,38": "IFERROR(ODATA(\"DEMO_DB3?$select=업무개선사항&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "12,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률10&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "11,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률9&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "10,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률8&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "9,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률7&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "8,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률6&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "7,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률5&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "6,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률4&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "5,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률3&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "4,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률2&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "3,41": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무달성률1&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "13,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=애로및건의사항&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "13,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=업무개선사항&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "12,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률10&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "11,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률9&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "10,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률8&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "9,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률7&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "8,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률6&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "7,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률5&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "6,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률4&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "5,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률3&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "4,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률2&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "3,41": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무달성률1&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
     "29,40": "IF($AP$12=0,\"\",$AP$12)",
     "31,29": "IF(AO30=\"\",\"\",(AO30*100)&\"%\")",
     "27,40": "IF($AP$11=0,\"\",$AP$11)",
@@ -373,14 +373,14 @@
     "25,2": "IF(AM9=0,\"\",AM9)",
     "21,2": "IF(AM7=0,\"\",AM7)",
     "17,2": "IF(AM5=0,\"\",AM5)",
-    "12,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률10&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "10,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률8&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "8,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률6&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "6,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률4&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "12,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률10&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "10,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률8&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "8,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률6&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "6,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률4&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
     "19,38": "IF($AN$7=0,\"\",$AN$7)",
     "25,38": "IF($AN$10=0,\"\",$AN$10)",
-    "3,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무1&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "4,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률2&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "3,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무1&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "4,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률2&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
     "23,38": "IF($AN$9=0,\"\",$AN$9)",
     "21,38": "IF($AN$8=0,\"\",$AN$8)",
     "17,38": "IF($AN$6=0,\"\",$AN$6)",
@@ -388,41 +388,41 @@
     "29,38": "IF($AN$12=0,\"\",$AN$12)",
     "27,38": "IF($AN$11=0,\"\",$AN$11)",
     "15,38": "IF($AN$5=0,\"\",$AN$5)",
-    "3,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률1&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "12,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무10&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "11,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무9&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "10,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무8&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "9,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무7&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "8,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무6&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "7,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무5&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "6,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무4&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "5,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무3&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "4,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무2&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "3,38": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무1&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "10,10": "ODATA(\"DEMO_DB3?$select=작성자&$filter=ID eq \"&IF(ISBLANK(AM1),\"null\",AM1))",
-    "8,10": "ODATA(\"DEMO_DB3?$select=부서&$filter=ID eq \"&IF(ISBLANK(AM1),\"null\",AM1))",
+    "3,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률1&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "12,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무10&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "11,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무9&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "10,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무8&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "9,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무7&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "8,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무6&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "7,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무5&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "6,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무4&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "5,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무3&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "4,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무2&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "3,38": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무1&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "10,10": "ODATA(\"DEMO_TYPE_C?$select=작성자&$filter=ID eq \"&IF(ISBLANK(AM1),\"null\",AM1))",
+    "8,10": "ODATA(\"DEMO_TYPE_C?$select=부서&$filter=ID eq \"&IF(ISBLANK(AM1),\"null\",AM1))",
     "10,23": "WEEKNUM(Y10)",
-    "12,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무10&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "8,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무6&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "4,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무2&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "7,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무5&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "6,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무4&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "5,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무3&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "11,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무9&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "10,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무8&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "9,40": "IFERROR(ODATA(\"DEMO_DB3?$select=다음주업무7&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "12,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무10&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "8,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무6&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "4,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무2&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "7,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무5&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "6,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무4&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "5,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무3&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "11,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무9&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "10,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무8&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "9,40": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=다음주업무7&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
     "14,38": "IF($AN$4=0,\"\",$AN$4)",
     "15,2": "IF(AM4=0,\"\",AM4)",
-    "5,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률3&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "7,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률5&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "9,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률7&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "11,39": "IFERROR(ODATA(\"DEMO_DB3?$select=금주업무달성률9&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "5,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률3&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "7,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률5&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "9,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률7&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "11,39": "IFERROR(ODATA(\"DEMO_TYPE_C?$select=금주업무달성률9&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
     "19,2": "IF(AM6=0,\"\",AM6)",
     "23,2": "IF(AM8=0,\"\",AM8)",
     "27,2": "IF(AM10=0,\"\",AM10)",
     "31,2": "IF(AM12=0,\"\",AM12)",
     "10,29": "INT((DAY(Y10)-1+WEEKDAY(DATE(YEAR(Y10),MONTH(Y10),1))-1)/7)+1",
-    "9,24": "ODATA(\"DEMO_DB3?$select=날짜&$filter=ID eq \"&IF(ISBLANK(AM1),\"null\",AM1))",
+    "9,24": "ODATA(\"DEMO_TYPE_C?$select=날짜&$filter=ID eq \"&IF(ISBLANK(AM1),\"null\",AM1))",
     "10,27": "MONTH(Y10)"
   },
   "AttachInfos": {
@@ -453,7 +453,7 @@
             "ExportExcelPageNameMode": 2,
             "NewOtherName": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=YEAR('주간보고서 뷰3'!Y10)&\"년 \"&MONTH('주간보고서 뷰3'!Y10)&\"월 \"&INT((DAY('주간보고서 뷰3'!Y10)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰3'!Y10),MONTH('주간보고서 뷰3'!Y10),1))-1)/7)+1&\"주차 보고서\""
+              "SerializeProperty": "=YEAR('주간보고서 뷰 Type-C'!Y10)&\"년 \"&MONTH('주간보고서 뷰 Type-C'!Y10)&\"월 \"&INT((DAY('주간보고서 뷰 Type-C'!Y10)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰 Type-C'!Y10),MONTH('주간보고서 뷰 Type-C'!Y10),1))-1)/7)+1&\"주차 보고서\""
             }
           }
         ],
@@ -470,7 +470,7 @@
             "ExportExcelPageNameMode": 2,
             "NewOtherName": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=YEAR('주간보고서 뷰3'!Y10)&\"년 \"&MONTH('주간보고서 뷰3'!Y10)&\"월 \"&INT((DAY('주간보고서 뷰3'!Y10)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰3'!Y10),MONTH('주간보고서 뷰3'!Y10),1))-1)/7)+1&\"주차 보고서\""
+              "SerializeProperty": "=YEAR('주간보고서 뷰 Type-C'!Y10)&\"년 \"&MONTH('주간보고서 뷰 Type-C'!Y10)&\"월 \"&INT((DAY('주간보고서 뷰 Type-C'!Y10)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰 Type-C'!Y10),MONTH('주간보고서 뷰 Type-C'!Y10),1))-1)/7)+1&\"주차 보고서\""
             }
           }
         ],
@@ -484,7 +484,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "보고서 리스트3",
+            "PageName": "보고서 리스트 Type-C",
             "PassValues": []
           }
         ],
@@ -2436,8 +2436,9 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
+    "Title": "Type-C 보고서 뷰",
     "AuthorizeInfo": {
-      "VisitMode": 2
+      "VisitMode": 3
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
@@ -2450,4 +2451,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//EkOlh6N8vMNbHh+nTOb++bn20QiCOdDy9evpHlkiMfxhV29Q9uA3taMPR2D2YdSw/U39UAv/wXiJ5uayKRCgHol0QjElBNAyt0xjm/kPUTEU2+lWu++DJieXFYXL+azh/CDFprP0NQxIafGTvNzakxdY5b4Qj5xmRXWuZSeMuiwq94uyjHxkYm2veq22KPbvu02MqdBkiyPbirzYpkyr0/hbFmVdpiOMjvg33z4qvyYypgxjm3ZXiS61toTy97lS4kU18rUeN4gMUpsPyCfI82m2KMBLnvceuk+GJll67LPfNWT8QCgigJGRIt7rUE4YnxvmF4gxW8MBqIjRQ4kWQFazpnYObln5lgQwXo1SIIObP8Jfh1y3m6BqgnQ9FlVIsCu/MEf60SnW/Sg3xdS3owVWpDAFfOW5pTQ45bEXxWXQsYuFsewo0W0lCgKoaabEghb+9VwdAv4KKPE2OXg87PC1OOCTM9EM7OPz5Ru6vupNnTcpqTiCVLTUoduryA8pE1qlKgdgfgvGTCTu7oDxGo/cUFYECbIcfrrxMeMZIYF/TirCcuaC5HqcQnNLFN3CShBZF/HV38IZ/Qdb4kXckgRdWwYOi/afUN9RzJ3tN16e6FHPg/S+AYkbjW6OGaBdLt0jdYyjJgVqDdoJIcHQinO3om8gjGFr9aHyUhfsUyldDOCd2OyC1s1fKGxVlvl4+3UBjachO4MjiBiA9muUdQNWV2GClYLTQMoIXOZjJ1pJrQJv+ftomJgVI0EccB1Yng6HqwdChQtOkJ+mInijZhm+TJvlkpHYG3mV/VCv/2mNe86RV85R6uF9XotJW8BrVWuaQ7fSQAL2dxLPKloIo2ESrNF/ke5MHeBx38UznMlKD14k5Mqe42rdI2MEBdJrfwcSD+ZlGS50wLnsyR3RWw==|920
+}//G7sT5d0ikyV017cveJ4RDJ4DyUHAhc7QsjKBjrEil1brtfi3RVkQ3UDI8IlPUgwe3O8s5mAY4Lhk9q5VOzV06bQIDPytezmwWahwBy5q8WxJbOqMq+e0BcHC4se8Ie5WhWlInz03gn988CcTSjYSd+LQe2II4yQ/Jig45jXw53yDAa65QXjd9d3MXEGXlWDATqtTeRR+/JFoTwz19cCmyKVx0r3xgfX6gvRIiAM7SysPoV4fYE4iSRn02wFwkr+CNGpwlOdgFiGGVq5QrSgozPVYwTo6ZJtIpjXun6DJQLBFZCUpHoLO2JWUvnqybxhcnvRisqE4WgDNE5exPUe6cdPFZTf5oANtkQHo7JHmqGJ8by5PCLUms7IBirirSZ39rE+C0wWfaJyNT7RYTd2Yk8hIuwvB3agWEDDZO0UJQ1eZGjjKpzzXs1P0PaBOxq/Ti2cOU11H4hgIPuG59RjPY660YYSBaEUZjRWv/BQD1XQlRpdMr62GrICDtkibxnEiIwz035whyUQaxgXSOKhQ3hcfhW4VD2T+Wpc52gfJwyzUjtOI3nuTR1+CTSbQFqZR0/XFAoZggPxIN4LVrIfQoxUTFDbIjQj0C3NSGm/hROY6AaIgg/co6rH5165qdFq7Igi1sVNV6Wt+E2d8k1naV6pLF+DivbqSnUZA7Pjv5efxaHWVrqRqJVmZPnK4BpwfpwomN8MFbaOZ2c/Y624krRTdWEOrwuOLqSzMO2xF/wNovN/LajGsEtkUIx8gCGrfbkRH8kOZQzc/RAxbLI3cxhFycbHftB1rVsDUfAqZB8thYQC41mMOUXSemUjB8zFu+f0/GRsL7M2nv0WklUqh4PUokj3WagI7R1v5ChRr6j57jqqOXE1J+qlu25Z4N2yQ4ViCEn2VgpNU2IWz6FiGlg==|920

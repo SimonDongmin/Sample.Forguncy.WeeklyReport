@@ -48,37 +48,37 @@
       },
       "9": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 35.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "10": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 35.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "11": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 35.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "12": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 35.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "13": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 35.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "14": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 35.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "15": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 35.0
+          "DesignLengthInPixel": 30.0
         }
       },
       "16": {
@@ -824,7 +824,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "날짜구분"
       }
     },
@@ -858,7 +858,7 @@
         }
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "팀구분"
       }
     },
@@ -873,7 +873,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "보고자"
       }
     },
@@ -889,7 +889,7 @@
         "ReadOnly": true
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "주차구분"
       }
     },
@@ -936,7 +936,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "지난주1"
       }
     },
@@ -951,7 +951,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "이번주1"
       }
     },
@@ -966,7 +966,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "지난주2"
       }
     },
@@ -981,7 +981,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "이번주2"
       }
     },
@@ -996,7 +996,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "지난주3"
       }
     },
@@ -1011,7 +1011,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "이번주3"
       }
     },
@@ -1026,7 +1026,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "지난주4"
       }
     },
@@ -1041,7 +1041,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "이번주4"
       }
     },
@@ -1056,7 +1056,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "지난주5"
       }
     },
@@ -1071,7 +1071,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "이번주5"
       }
     },
@@ -1086,7 +1086,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "지난주6"
       }
     },
@@ -1101,7 +1101,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "이번주6"
       }
     },
@@ -1116,7 +1116,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "지난주7"
       }
     },
@@ -1131,7 +1131,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "이번주7"
       }
     },
@@ -1141,7 +1141,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "다음주_업무목표"
       }
     },
@@ -1156,7 +1156,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "다움주_진척목표"
       }
     },
@@ -1166,7 +1166,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "다음주_비고"
       }
     },
@@ -1181,7 +1181,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일010"
       }
     },
@@ -1196,7 +1196,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일011"
       },
       "DataValidationInfo": {}
@@ -1212,7 +1212,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일012"
       },
       "DataValidationInfo": {}
@@ -1228,7 +1228,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일020"
       }
     },
@@ -1243,7 +1243,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일021"
       },
       "DataValidationInfo": {}
@@ -1259,7 +1259,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일021"
       },
       "DataValidationInfo": {}
@@ -1275,7 +1275,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일030"
       }
     },
@@ -1290,7 +1290,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일031"
       },
       "DataValidationInfo": {}
@@ -1306,7 +1306,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일032"
       },
       "DataValidationInfo": {}
@@ -1322,7 +1322,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일040"
       }
     },
@@ -1337,7 +1337,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일041"
       },
       "DataValidationInfo": {}
@@ -1353,7 +1353,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일042"
       },
       "DataValidationInfo": {}
@@ -1369,7 +1369,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일050"
       }
     },
@@ -1384,7 +1384,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일051"
       },
       "DataValidationInfo": {}
@@ -1400,7 +1400,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일052"
       },
       "DataValidationInfo": {}
@@ -1416,7 +1416,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일060"
       }
     },
@@ -1431,7 +1431,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일061"
       },
       "DataValidationInfo": {}
@@ -1447,7 +1447,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일062"
       },
       "DataValidationInfo": {}
@@ -1463,7 +1463,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일070"
       }
     },
@@ -1478,7 +1478,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일071"
       },
       "DataValidationInfo": {}
@@ -1494,7 +1494,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일072"
       },
       "DataValidationInfo": {}
@@ -1510,7 +1510,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일080"
       }
     },
@@ -1525,7 +1525,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일081"
       },
       "DataValidationInfo": {}
@@ -1541,7 +1541,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일082"
       },
       "DataValidationInfo": {}
@@ -1557,7 +1557,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일090"
       }
     },
@@ -1572,7 +1572,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일091"
       },
       "DataValidationInfo": {}
@@ -1588,7 +1588,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "모바일092"
       },
       "DataValidationInfo": {}
@@ -1599,7 +1599,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "회장님코멘트"
       }
     },
@@ -1609,7 +1609,7 @@
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
       },
       "BindingInfo": {
-        "TableName": "DEMO_DB",
+        "TableName": "DEMO_TYPE_A",
         "ColumnName": "대표님코멘트"
       }
     },
@@ -1623,7 +1623,7 @@
             "ExportExcelPageNameMode": 2,
             "NewOtherName": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=CONCATENATE('보고서 작성'!G3,'보고서 작성'!G4,'보고서 작성'!C7)"
+              "SerializeProperty": "=CONCATENATE('보고서 작성 Type-A'!G3,'보고서 작성 Type-A'!G4,'보고서 작성 Type-A'!C7)"
             }
           }
         ],
@@ -1651,13 +1651,13 @@
                           "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                           "cellLocations": [
                             {
-                              "SerializeProperty": "='보고서 작성'!G3"
+                              "SerializeProperty": "='보고서 작성 Type-A'!G3"
                             }
                           ]
                         },
                         "value": "%Null%",
                         "compareType": 1,
-                        "Id": "0c7d5b68-a586-4fbe-8169-6e4cd672bf13"
+                        "Id": "8f68149c-993f-4ab7-9319-af5ef0709777"
                       },
                       "Condition2": {
                         "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1665,15 +1665,15 @@
                           "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                           "cellLocations": [
                             {
-                              "SerializeProperty": "='보고서 작성'!G4"
+                              "SerializeProperty": "='보고서 작성 Type-A'!G4"
                             }
                           ]
                         },
                         "value": "%Null%",
                         "compareType": 1,
-                        "Id": "06457728-4921-4e3c-bc01-33bd69c20a3f"
+                        "Id": "bc63ca6b-5400-4809-b810-550381e24bff"
                       },
-                      "Id": "92859748-e8de-43ff-8502-8892fe1a0f95"
+                      "Id": "fc1da487-db89-4b2e-8cc6-e882bc81e2c5"
                     },
                     "Condition2": {
                       "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1681,15 +1681,15 @@
                         "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                         "cellLocations": [
                           {
-                            "SerializeProperty": "='보고서 작성'!G5"
+                            "SerializeProperty": "='보고서 작성 Type-A'!G5"
                           }
                         ]
                       },
                       "value": "%Null%",
                       "compareType": 1,
-                      "Id": "fae80866-4956-4b8d-b547-534a6e8af3c5"
+                      "Id": "18e5a567-e2b2-42ae-8fd5-515ef2a0df39"
                     },
-                    "Id": "03621eb1-aaad-4e2f-b196-98e876ba4715"
+                    "Id": "a380b4bc-ac57-4d43-92c2-ddb367ae4002"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1697,20 +1697,20 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "='보고서 작성'!G6"
+                          "SerializeProperty": "='보고서 작성 Type-A'!G6"
                         }
                       ]
                     },
                     "value": "%Null%",
                     "compareType": 1,
-                    "Id": "c9b006f4-cdd5-49ef-98fd-bec4319cd0ca"
+                    "Id": "fd15bcd2-c818-4914-b6b0-f66c72e242d6"
                   },
-                  "Id": "0d8b38be-3e99-43d1-b7d2-8105847d276d"
+                  "Id": "41d29683-3be1-461b-b209-8020cef440d8"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "DEMO_DB",
+                    "TableName": "DEMO_TYPE_A",
                     "UpdateType": "add",
                     "ShowConfirm": false,
                     "ConfirmText": "데이터를 추가하시겠습니까?",
@@ -1719,361 +1719,361 @@
                         "ColumnName": "주차구분",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!G6"
+                          "SerializeProperty": "='보고서 작성 Type-A'!G6"
                         }
                       },
                       {
                         "ColumnName": "팀구분",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!G4"
+                          "SerializeProperty": "='보고서 작성 Type-A'!G4"
                         }
                       },
                       {
                         "ColumnName": "날짜구분",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!G3"
+                          "SerializeProperty": "='보고서 작성 Type-A'!G3"
                         }
                       },
                       {
                         "ColumnName": "보고자",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!G5"
+                          "SerializeProperty": "='보고서 작성 Type-A'!G5"
                         }
                       },
                       {
                         "ColumnName": "지난주1",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C10"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C10"
                         }
                       },
                       {
                         "ColumnName": "지난주2",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C11"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C11"
                         }
                       },
                       {
                         "ColumnName": "지난주3",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C12"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C12"
                         }
                       },
                       {
                         "ColumnName": "지난주4",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C13"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C13"
                         }
                       },
                       {
                         "ColumnName": "지난주5",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C14"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C14"
                         }
                       },
                       {
                         "ColumnName": "지난주6",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C15"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C15"
                         }
                       },
                       {
                         "ColumnName": "지난주7",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C16"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C16"
                         }
                       },
                       {
                         "ColumnName": "이번주1",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!W10"
+                          "SerializeProperty": "='보고서 작성 Type-A'!W10"
                         }
                       },
                       {
                         "ColumnName": "이번주2",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!W11"
+                          "SerializeProperty": "='보고서 작성 Type-A'!W11"
                         }
                       },
                       {
                         "ColumnName": "이번주3",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!W12"
+                          "SerializeProperty": "='보고서 작성 Type-A'!W12"
                         }
                       },
                       {
                         "ColumnName": "이번주4",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!W13"
+                          "SerializeProperty": "='보고서 작성 Type-A'!W13"
                         }
                       },
                       {
                         "ColumnName": "이번주5",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!W14"
+                          "SerializeProperty": "='보고서 작성 Type-A'!W14"
                         }
                       },
                       {
                         "ColumnName": "이번주6",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!W15"
+                          "SerializeProperty": "='보고서 작성 Type-A'!W15"
                         }
                       },
                       {
                         "ColumnName": "이번주7",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!W16"
+                          "SerializeProperty": "='보고서 작성 Type-A'!W16"
                         }
                       },
                       {
                         "ColumnName": "다음주_업무목표",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C20"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C20"
                         }
                       },
                       {
                         "ColumnName": "다움주_진척목표",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!Y20"
+                          "SerializeProperty": "='보고서 작성 Type-A'!Y20"
                         }
                       },
                       {
                         "ColumnName": "다음주_비고",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!AE20"
+                          "SerializeProperty": "='보고서 작성 Type-A'!AE20"
                         }
                       },
                       {
                         "ColumnName": "모바일010",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C24"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C24"
                         }
                       },
                       {
                         "ColumnName": "모바일011",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!J24"
+                          "SerializeProperty": "='보고서 작성 Type-A'!J24"
                         }
                       },
                       {
                         "ColumnName": "모바일012",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!N24"
+                          "SerializeProperty": "='보고서 작성 Type-A'!N24"
                         }
                       },
                       {
                         "ColumnName": "모바일020",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C25"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C25"
                         }
                       },
                       {
                         "ColumnName": "모바일021",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!J25"
+                          "SerializeProperty": "='보고서 작성 Type-A'!J25"
                         }
                       },
                       {
                         "ColumnName": "모바일022",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!N25"
+                          "SerializeProperty": "='보고서 작성 Type-A'!N25"
                         }
                       },
                       {
                         "ColumnName": "모바일030",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C26"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C26"
                         }
                       },
                       {
                         "ColumnName": "모바일031",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!J26"
+                          "SerializeProperty": "='보고서 작성 Type-A'!J26"
                         }
                       },
                       {
                         "ColumnName": "모바일032",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!N26"
+                          "SerializeProperty": "='보고서 작성 Type-A'!N26"
                         }
                       },
                       {
                         "ColumnName": "모바일040",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C27"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C27"
                         }
                       },
                       {
                         "ColumnName": "모바일041",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!J27"
+                          "SerializeProperty": "='보고서 작성 Type-A'!J27"
                         }
                       },
                       {
                         "ColumnName": "모바일042",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!N27"
+                          "SerializeProperty": "='보고서 작성 Type-A'!N27"
                         }
                       },
                       {
                         "ColumnName": "모바일050",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C28"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C28"
                         }
                       },
                       {
                         "ColumnName": "모바일051",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!J28"
+                          "SerializeProperty": "='보고서 작성 Type-A'!J28"
                         }
                       },
                       {
                         "ColumnName": "모바일052",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!N28"
+                          "SerializeProperty": "='보고서 작성 Type-A'!N28"
                         }
                       },
                       {
                         "ColumnName": "모바일060",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C29"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C29"
                         }
                       },
                       {
                         "ColumnName": "모바일061",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!J29"
+                          "SerializeProperty": "='보고서 작성 Type-A'!J29"
                         }
                       },
                       {
                         "ColumnName": "모바일062",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!N29"
+                          "SerializeProperty": "='보고서 작성 Type-A'!N29"
                         }
                       },
                       {
                         "ColumnName": "모바일070",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C30"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C30"
                         }
                       },
                       {
                         "ColumnName": "모바일071",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!J30"
+                          "SerializeProperty": "='보고서 작성 Type-A'!J30"
                         }
                       },
                       {
                         "ColumnName": "모바일072",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!N30"
+                          "SerializeProperty": "='보고서 작성 Type-A'!N30"
                         }
                       },
                       {
                         "ColumnName": "모바일080",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C31"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C31"
                         }
                       },
                       {
                         "ColumnName": "모바일081",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!J31"
+                          "SerializeProperty": "='보고서 작성 Type-A'!J31"
                         }
                       },
                       {
                         "ColumnName": "모바일082",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!N31"
+                          "SerializeProperty": "='보고서 작성 Type-A'!N31"
                         }
                       },
                       {
                         "ColumnName": "모바일090",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C32"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C32"
                         }
                       },
                       {
                         "ColumnName": "모바일091",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!J32"
+                          "SerializeProperty": "='보고서 작성 Type-A'!J32"
                         }
                       },
                       {
                         "ColumnName": "모바일092",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!N32"
+                          "SerializeProperty": "='보고서 작성 Type-A'!N32"
                         }
                       },
                       {
                         "ColumnName": "회장님코멘트",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!C38"
+                          "SerializeProperty": "='보고서 작성 Type-A'!C38"
                         }
                       },
                       {
                         "ColumnName": "대표님코멘트",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='보고서 작성'!W38"
+                          "SerializeProperty": "='보고서 작성 Type-A'!W38"
                         }
                       }
                     ]
                   },
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "보고서 리스트",
+                    "PageName": "보고서 리스트 Type-A",
                     "PassValues": []
                   }
                 ],
-                "ID": "0e600efd-8bba-4f35-b5ae-94316ab82ff8"
+                "ID": "e4837713-db02-49d7-bc15-177b936fc7c9"
               },
               {
                 "CommandList": [
@@ -2082,7 +2082,7 @@
                     "MessageFormula": "날짜, 보고자, 부서, 주차구분은 필수로 적어주시기 바랍니다."
                   }
                 ],
-                "ID": "4cd476ff-0df2-43da-8523-ba1427239b94"
+                "ID": "5ad2e6e3-9fba-4e3e-8a90-c3c49fdb5373"
               }
             ]
           }
@@ -3609,20 +3609,20 @@
       "DataSeries": [
         {
           "ChartType": 7,
-          "ValueFormula": "'보고서 작성'!J24:J32",
+          "ValueFormula": "'보고서 작성 Type-A'!J24:J32",
           "Name": "지난 버전",
           "MarkerSize": "7,7"
         },
         {
           "ChartType": 7,
-          "ValueFormula": "'보고서 작성'!N24:N32",
+          "ValueFormula": "'보고서 작성 Type-A'!N24:N32",
           "Name": "이번 버전",
           "MarkerSize": "7,7"
         }
       ],
       "XAxises": [
         {
-          "ItemsFormula": "'보고서 작성'!$C$24:$C$32",
+          "ItemsFormula": "'보고서 작성 Type-A'!$C$24:$C$32",
           "LabelFormatter": "General",
           "ShowMajorGridlines": false,
           "MajorTickStroke": "#868686",
@@ -3702,19 +3702,20 @@
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
       "Name": "Chart1",
-      "Location": "360,704",
+      "Location": "360,669",
       "Size": "480,290"
     }
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
+    "Title": "Type-A 보고서 작성",
     "AuthorizeInfo": {
-      "VisitMode": 2
+      "VisitMode": 3
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "DEMO_DB"
+    "RelatedDataTableName": "DEMO_TYPE_A"
   },
   "PrintInfo": {
     "ColumnStart": 1,
@@ -3728,4 +3729,4 @@
     "ZoomFactor": 0.84999999999999987,
     "PaperSize": {}
   }
-}//p5vjNp6jrqK0CCKJtwzMuxT4QzL1naZ3dKvEYJkeXVswvb/q5YRNY+0VHEuEWQmYAMyHWdG1Y2xxbpzhOm8i44ORFljy6BXukcR6HVOCGCVVX31cm4IcrI6OVlNHQ6M2dXU7ILaSc1p4mBGOTeuT7Nw1ctTzFvG0s6OHeW7qV0hVgxFe3ClQbafSuvkMFHzHXXQsuL7pVX2Y0/hApivIhsbz653RZOkkJelLPkz7igFKWP6AxemX9hIBb0ePlDgqO+CylKivgleHQNDD+U6LXzITopUVe+agIm9I1SS5zVHmnS5u19FTOnjlaNSMioqOj/uSxw7ywFP4UWpJS+hZonj8v4/p4ySGaHWZ/whKvjreNSSwH7yyeXDkaCILD4J/P2MciMNZ2CEiVbhvqqtnpNclJuJJmDEVPsBCUhjNCQohmmm8bO8/hyCpeJYj7vYgYOIs7iC71Okl/qxyiBjxcwtqZc16UxQCaoEVJIHMolU+cIIG7UABA19G30h46uL/JjADIENBGJ0Q0Tq9dWfi13e/8wMfVHRA3bqF3LRuTZZogUbhHHuD5xTK1NSZr1E+5a8y3ERQDxKBQ87b3n7RXYVVr1OhsOYV0dT4p0Ia7t5v6b9WE2YS+sexisl/XBXvtoPCaiPI5m19lexpE7lnUwL7eNpBvf6FLXOvNSgTKhUpSOCr/pUMVjjkVRYgcl87xWxDOC0dGwO+4Y3D/67mJdvqe79H4u+u2lUkb3TtUV8Ydz61h9hfikJh1aJO4wVAfpVLzMDui0RCUPfHihJLtLyllVFHmqSYCC75T0cHWZnzn1ta+1utB+q++EiifyfAQ+4a4dAzWGIahWoEPIK1SCBW3rOXZMJkmBUCwCIe+WGVUQ82sHHdLWlOEz3jQ7Eaw5EYrXwjgjqeAIyPlZmkNw==|920
+}//8s4lwv10hLWcku4IY72FffPLmMxZKw0bRLVxq8+Y/XLJI4tu3nX+//TTTkABoj8ClTK/cRIo3cJs3FlfYSATbTpRTjWl3qS0Svq/KCfOTLolIlMRnibL+y+8+VBCt1CEdIqlxmopdUO/p6mB6ufutL3Noka2GrEV2HSNJ7IhQLqvMBWeq6EQkISxzPWWS8GPkUrIc8gFt4AEIZF/TIrvmrMUxiNXi+98LfyX+fOcRc5Q9xTBBJxrSlNZvVwTecX5nyGd1FqP9nIKw04WXamuYvVY4gW89cnC/K3osyql6cLSd3P2JYKwIR8wKJMjRgzI4lqCSJkXGKWLoJ2dCwEavOUH3zgUGNUMT5SndqRWhbsbozqP8aiB0wwxV6DE9+SptSbVWbsbwUXQEy6bDLmlVMWdQsGf5TyAQ34+S02Ok1dhZ+HywoFjwaqumZaK/osEvTxocbqFjnmOMj8KzVtC7bREHLFxyWCzII8iLZKbpZKbExP6gJtD4g3X4hW340QclxFDC4hSWPazimt2lX5VPBxkDCo/XGVmXlxFGVbJPymvIS8poJkzDCSPkYAeqjyF8vYftxc9Kk+SRxnzhGiJJZlcIPl/NphZWaieWOlv940C56vuZHZY9EusPSEOMO8RtnWZpCfQBL4ynTv7zcG2Oa7TQkUjTZKe4cPgvsAMk8IntTpwS4yYfUIfZ+9xcUDCxBW8Hwt6AoxpZnwClY8Az68Rw4OvjtGOrRWRps5kz9rxyRTry73uJEGTQMyW08xzEls0/8FJZ6VfrK7SH5xooHCiMRjiRL98uIoksAJYJnxSDxkik0jGfElcHSCsn7xmPn7AP5po8Uyh9XF/1rA0YZBfn6XGUsfM67Zg0WxjXu2rPEuq9tgnwxc3ZkjLLC8mskrek9OUrRSA5cXsYI/xdg==|920

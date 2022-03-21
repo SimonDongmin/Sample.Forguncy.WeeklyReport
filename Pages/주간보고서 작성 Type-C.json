@@ -672,13 +672,13 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "='주간보고서 작성3'!K9"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!K9"
                         }
                       ]
                     },
                     "value": "%Null%",
                     "compareType": 1,
-                    "Id": "78e762d5-922d-419e-8585-4f4af6e2a9de"
+                    "Id": "ca13b5ee-9ae1-44e2-9bc9-c78a38d81d51"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -686,20 +686,20 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "='주간보고서 작성3'!K11"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!K11"
                         }
                       ]
                     },
                     "value": "%Null%",
                     "compareType": 1,
-                    "Id": "24e7a6cb-32b2-48a3-b402-f035aa9f8f55"
+                    "Id": "e30a25f2-fdd4-43cf-b764-4ab52c9c1f4b"
                   },
-                  "Id": "d69a4662-63f2-422c-955c-a64f30f6dc72"
+                  "Id": "0e1b3416-8751-4466-b52a-96f248574743"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "DEMO_DB3",
+                    "TableName": "DEMO_TYPE_C",
                     "UpdateType": "add",
                     "ShowConfirm": false,
                     "ConfirmText": "데이터를 추가하시겠습니까?",
@@ -708,326 +708,326 @@
                         "ColumnName": "부서",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!K9"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!K9"
                         }
                       },
                       {
                         "ColumnName": "작성자",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!K11"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!K11"
                         }
                       },
                       {
                         "ColumnName": "날짜",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!Y10"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!Y10"
                         }
                       },
                       {
                         "ColumnName": "금주업무1",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C16"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C16"
                         }
                       },
                       {
                         "ColumnName": "금주업무2",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C18"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C18"
                         }
                       },
                       {
                         "ColumnName": "금주업무3",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C20"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C20"
                         }
                       },
                       {
                         "ColumnName": "금주업무4",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C22"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C22"
                         }
                       },
                       {
                         "ColumnName": "금주업무5",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C24"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C24"
                         }
                       },
                       {
                         "ColumnName": "금주업무6",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C26"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C26"
                         }
                       },
                       {
                         "ColumnName": "금주업무7",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C28"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C28"
                         }
                       },
                       {
                         "ColumnName": "금주업무8",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C30"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C30"
                         }
                       },
                       {
                         "ColumnName": "금주업무9",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C32"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C32"
                         }
                       },
                       {
                         "ColumnName": "금주업무10",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C34"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C34"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률1",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O16"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O16"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률2",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O18"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O18"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률3",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O20"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O20"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률4",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O22"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O22"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률5",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O24"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O24"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률6",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O24"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O24"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률7",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O28"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O28"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률8",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O30"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O30"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률9",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O32"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O32"
                         }
                       },
                       {
                         "ColumnName": "금주업무달성률10",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!O34"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!O34"
                         }
                       },
                       {
                         "ColumnName": "다음주업무1",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S16"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S16"
                         }
                       },
                       {
                         "ColumnName": "다음주업무2",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S18"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S18"
                         }
                       },
                       {
                         "ColumnName": "다음주업무3",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S20"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S20"
                         }
                       },
                       {
                         "ColumnName": "다음주업무4",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S22"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S22"
                         }
                       },
                       {
                         "ColumnName": "다음주업무5",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S24"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S24"
                         }
                       },
                       {
                         "ColumnName": "다음주업무6",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S26"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S26"
                         }
                       },
                       {
                         "ColumnName": "다음주업무7",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S28"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S28"
                         }
                       },
                       {
                         "ColumnName": "다음주업무8",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S30"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S30"
                         }
                       },
                       {
                         "ColumnName": "다음주업무9",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S32"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S32"
                         }
                       },
                       {
                         "ColumnName": "다음주업무10",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S34"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S34"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률1",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD16"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD16"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률2",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD18"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD18"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률3",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD20"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD20"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률4",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD22"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD22"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률5",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD24"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD24"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률6",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD26"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD26"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률7",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD28"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD28"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률8",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD30"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD30"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률9",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD32"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD32"
                         }
                       },
                       {
                         "ColumnName": "다음주업무달성률10",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!AD34"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!AD34"
                         }
                       },
                       {
                         "ColumnName": "업무개선사항",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!C38"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!C38"
                         }
                       },
                       {
                         "ColumnName": "애로및건의사항",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성3'!S38"
+                          "SerializeProperty": "='주간보고서 작성 Type-C'!S38"
                         }
                       }
                     ]
                   },
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "보고서 리스트3",
+                    "PageName": "보고서 리스트 Type-C",
                     "PassValues": []
                   }
                 ],
-                "ID": "a52fd943-f21b-4d53-a78e-8e5c0ae9d11d"
+                "ID": "aa9ff258-603f-45fb-a765-018ff7b17a67"
               }
             ]
           }
@@ -2751,8 +2751,9 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
+    "Title": "Type-C 보고서 작성",
     "AuthorizeInfo": {
-      "VisitMode": 2
+      "VisitMode": 3
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
@@ -2765,4 +2766,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//wGNDJ+FvvGT532sXwJwIWGAIk49fSlR7vAdMpuYAoTQR9i8d+CN7/o2u0PEIbsy+sUmY7UI7hJf8zRhgaKiJ8PzfDV/Kxn/gx5hG11wyYPbix1rPs1Nez0TaEFwpp0iHq8kX6CI+eBLQuOaO4sZhC/5erlqZWy01o3eg1oOXgePtTtyBdUT/gWEZuE74Tw0WDOlr2A7C+YaTbB94BgodFsbYBZeMIF++wijSnDlqIuJa+fKc+S/7xZasd/WZyHBO2KZdACKpseVYmEY4Eu73BZ3sqcFgijy5wvWFgI8/OxWgGLbtjcgpUyWhDke6DB8a1Q/AH8eX8QhmINLa6J3mJlZV1tdbwLWN2YJRGB8mBttAoYA1gECDkDgLXZCsETkWI47bv3pbygjIeSAlTs9TOkLQD3DNzGSIe8rIgiZL1IER+nJ7zk2sqLRYUh239fAZYs2NwA23dMr2fMqxGJy1AUrPRpu0CPw1zMTzuOC3J6QLb1cakQ9zBm7d5WHfu2MRXppfICo7bndjALkplb+x00SmWJ8MZ3T33pPUVhpRPpUsam+mZug4GLckAjVDnEJKo6EYE3G8lvmpgh+OAlrYI2kpeR70OLTJWd3fxoSlLakrxvluuZ2mZB2HJSGVjsVBQ37vhjeuG3F0cfMp/fYUT9t0tLDyt9lW2J2WYEJtImorQj9/wRuUUeINNa/VgoQG+EjCJxufzUGNCYozgW3lbK+3Scj5bzvzBy2XJC50S6mJROA8hBRFqj5r26jgGEgACDsIAkaZ8jWRE+XPebMHm8Iuwh/sm7MmgQLagtutLhqwXPzTwfS2bUSmYEpvoZpom8PqoavbsVAOas6cKURqL9aOxh+FseBmqg/4lrAynBOH4eXljQqObShnpg7deJcRruXjaF2VRPqROlyXQfrMzA==|920
+}//W/Hq59JHYcmjlvpMXp9LraOgQCQSB0UHOV3x0TxCTkajh4so2e1fAl4aHjWCfT2HrIFy7ZNIfe1WVpzBf/UEdnWtM4nydQcNv+FRU6TglgXJSb6RkTTvwdyJ5j61IY+Z6AmSji8MefS2ZMCqvOm5zKSz5eQN1EDWRia3MYtALsCF53XWbtR54T/FvU0YW0/nceaLO5uElQoYFFrnDx31UwShNLaWLIxso26W6KkdTrD5clyZabw6bYeXYOWVRLn2JpwnmsYN4GJLdxiHvq1MBYoXXAOnyYbeSMdSpiwW7TqGHvUsF+F7SIyEv2TyyXJbXzBUgzrhVSYvmEl1R//bz/1Cihl5PxSOuTzhLXD37qjVaMhFczwFoe59N+P/zNa49vp5GJMhN8BYZFfF9DgZEyCf1cUw5EyV+tSqKBmvtDxw0HlRQXxvytaF7+V7A1YnRfwImxDUmoVA0C4VLJzgQBwHYxxYL0kntLOJ2VeMBLz+PDksGBaeRc6luBe9O/RaHq1nUsS8HchaU0MpJ8ZT89rlsL1+jL8GXJvrE8UCcTfHLwnhMCvk8wqv2Wf+bR04xXWf85gawFOWvWrSWjypAf29a4ayBYsVOI6Vhdxjx78zkep7DsbnCkwBDgwyt/DYeqscoW7/2Co41L061mNMx1gROUVdM6advxvU0+zbgsbFmb7Xjxa2Nktznu1MtNJCNDNP3llQjNgLawYtDvcR4bEBJCmEA1weOnj/+HqNXfgXtO49mjb1uEPXU66sc+eeZSAvgck91ot3YHAoPBg+0s4ri4yeJx/4ZJNg+Jk+PbneRNChrOPKZ0YXG+O+2W6E09Kat3Jqb7no1z3P+xpZt8uS1R+67OG5YWozxb+VwdFlISINRRrdrhDQgFwfNSFMdnGLk6WxUjoaAdZw6bDcZw==|920

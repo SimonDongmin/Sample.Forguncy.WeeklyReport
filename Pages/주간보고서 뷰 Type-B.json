@@ -147,24 +147,24 @@
     "10,28": "IF(AO11=0,\"\",AO11)",
     "10,24": "IF(AN11=0,\"\",AN11)",
     "10,7": "IF(AM11=0,\"\",AM11)",
-    "21,39": "IFERROR(ODATA(\"DEMO_DB2?$select=경영진지시사항&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "21,38": "IFERROR(ODATA(\"DEMO_DB2?$select=팀장지시사항&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "18,40": "IFERROR(ODATA(\"DEMO_DB2?$select=비고&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "18,39": "IFERROR(ODATA(\"DEMO_DB2?$select=차주&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "18,38": "IFERROR(ODATA(\"DEMO_DB2?$select=금주&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "10,40": "IFERROR(ODATA(\"DEMO_DB2?$select=업무비고&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "10,39": "IFERROR(ODATA(\"DEMO_DB2?$select=진척도&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "10,38": "IFERROR(ODATA(\"DEMO_DB2?$select=목표&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "21,39": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=경영진지시사항&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "21,38": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=팀장지시사항&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "18,40": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=비고&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "18,39": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=차주&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "18,38": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=금주&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "10,40": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=업무비고&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "10,39": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=진척도&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "10,38": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=목표&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
     "7,19": "IF(AN8=0,\"\",AN8)",
     "7,12": "IF(AM8=0,\"\",AM8)",
-    "7,39": "IFERROR(ODATA(\"DEMO_DB2?$select=종료날짜&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
-    "7,38": "IFERROR(ODATA(\"DEMO_DB2?$select=시작날짜&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "7,39": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=종료날짜&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "7,38": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=시작날짜&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
     "6,5": "IF(AM7=0,\"\",AM7)",
-    "6,38": "IFERROR(ODATA(\"DEMO_DB2?$select=날짜&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "6,38": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=날짜&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
     "5,14": "IF(AN6=0,\"\",AN6)",
-    "5,39": "IFERROR(ODATA(\"DEMO_DB2?$select=담당자&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
+    "5,39": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=담당자&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")",
     "5,5": "IF(AM6=0,\"\",AM6)",
-    "5,38": "IFERROR(ODATA(\"DEMO_DB2?$select=소속&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")"
+    "5,38": "IFERROR(ODATA(\"DEMO_TYPE_B?$select=소속&$filter=ID eq \"&IF(ISBLANK($AM$1),\"null\",$AM$1)),\"\")"
   },
   "AttachInfos": {
     "3,21": {
@@ -200,7 +200,7 @@
             "ExportExcelPageNameMode": 2,
             "NewOtherName": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=YEAR('주간보고서 뷰2'!AM7)&\"년 \"&MONTH('주간보고서 뷰2'!AM7)&\"월 \"&INT((DAY('주간보고서 뷰2'!AM7)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰2'!AM7),MONTH('주간보고서 뷰2'!AM7),1))-1)/7)+1&\"주차 보고서\""
+              "SerializeProperty": "=YEAR('주간보고서 뷰 Type-B'!AM7)&\"년 \"&MONTH('주간보고서 뷰 Type-B'!AM7)&\"월 \"&INT((DAY('주간보고서 뷰 Type-B'!AM7)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰 Type-B'!AM7),MONTH('주간보고서 뷰 Type-B'!AM7),1))-1)/7)+1&\"주차 보고서\""
             }
           }
         ],
@@ -217,7 +217,7 @@
             "ExportExcelPageNameMode": 2,
             "NewOtherName": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=YEAR('주간보고서 뷰2'!AM7)&\"년 \"&MONTH('주간보고서 뷰2'!AM7)&\"월 \"&INT((DAY('주간보고서 뷰2'!AM7)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰2'!AM7),MONTH('주간보고서 뷰2'!AM7),1))-1)/7)+1&\"주차 보고서\""
+              "SerializeProperty": "=YEAR('주간보고서 뷰 Type-B'!AM7)&\"년 \"&MONTH('주간보고서 뷰 Type-B'!AM7)&\"월 \"&INT((DAY('주간보고서 뷰 Type-B'!AM7)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰 Type-B'!AM7),MONTH('주간보고서 뷰 Type-B'!AM7),1))-1)/7)+1&\"주차 보고서\""
             }
           }
         ],
@@ -231,7 +231,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "보고서 리스트2",
+            "PageName": "보고서 리스트 Type-B",
             "PassValues": []
           }
         ],
@@ -1423,8 +1423,9 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
+    "Title": "Type-B 보고서 뷰",
     "AuthorizeInfo": {
-      "VisitMode": 2
+      "VisitMode": 3
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
@@ -1437,4 +1438,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//6If+yWMpngD33WtVk2qnMBgkVybviVk1mjECnehVSEZAGya9lxUqTagYvjI1p3XRpu79z0Nb9EM/nfMJk1W2oerTYw/H/8sN7suMlztOWX7qap8j6XxDn7G9ihQ64/PMfOYGcMUVRrOt3q4tXhBcbAbRcfha/JihkAsEAtsJxsQQklKPULlmwyvPhfAhuEHGTlLJ32BWY37cEi3QD+Zg3lnvMLDBgA3xCVYYc32OGPKsKJBs+ITjTGS8JkPwO0/8S7HBMkyq9Sr8wctjII/M5g6YBlYLSvX+UcNEWL/pSw5yqMdt4ZXyfsoToeEI5WnxpoRW+gxbjLmsK2bvNRiG1imYjXrPHIPhjIFIp/FX9IbbwTJuYr0+lRKven4DsdrsT+fitaFywn5TnHEjHrLfqL4kH3qpy0pATzvmeVGCD2wz2TOMVU8Znq5BudwnRKyelWIFfTYs1uMG+1W14q2goL9CwT6P6L2nE5OwvHOOVYQC+9HTATqb9rp/XTjTa09Pcnkll0hgFs4z8gJphdGZkJquN1y13MefNge2dCo6uCKNaQEwDEZZJ/Peg/voG9eZyQ3+1lCfDZYcfzOGQaQQpABFEzRomjzy7ftSMqsnah4njNANOJknv0VD4CC23ROyPM/mHOmcv++GwIKUf8AB6bDu0LL7wkZHrAYi2Z11d7N3p0rpCz3Vkgmh9TnV44n8VGGhDC6A3/N+DGYlajzomtpht8Ju71Zi6ZxXRb5cD9uTeXhHo6T9nKxZxMGOLcnBlZ2dKNyMvuRSVV0hn5oFf7Kwm58kt2MDgicjuUnVUTqbb6P8FJoqOjA5/3PRis4i8icMCLqRYuLALPGwWDXANAMyOCobUC1gEHRSeS2T8JXlXdyNrg0eJaONBiBnXR2Tc8IKSV9IPUD3gn/UlwMPNg==|920
+}//oFXDgI+5bPIy/IKv9pS98LHfUY3txK+dtYKinYt7orB5nzeYB9ouyX5L1+2r3L5oCprVKcELQSqFulCxUEJoH65mtxFEGgovJ8gCC9mjwEOjUyeFu/TM9LX6VFHjaDOnap+yUgq5GJjcgCP2068FbcyJ7oVrRpgBdkJdou5Oc8xLnLqxb43ljfPwPgOM2ULulv1xMYbNOvWuSC25Ng6LzX6ROj4xK6cOKrYXFSDrLQmacoYt/PAyDs9u2xCT/o8IgxLLlw8bCD5D8yGGdJhqseBRAaKoddW6JVzSTBZB/QUTHivt7AGuy73DXICm71z4g02TQ9FJoCdZrrqUY7l4inYsRHxfEgVxI5RqgX9jjUDT6At9HtYOdTHvVLP+kbrwYdShYHu0iu7t4nkNpq3xvCBT0eE5W/0rvYgz4kAm3swTUpLzxwGQSRQP8uk+tXOWwVzutoIsy4C/1lTguaXtWGYsXTYUHqA1OeeFxi6j9D7ia/+DM+U2ogjuVr85NTMvQBXTaktSt8PYa6bsRxaeQ2Qm1NXKXwiGHtruoB+rO9Y3iPhW9pfoc2fEMqeZa2WAKAMm2cpnSLaNkQ9a26LWpG46mSMf/IKe/lq4Ytn+tjKlJHa4xgsAR+2jqUjJDZlAk3GqhnEatPY3OF0meS2MDEUPfAX6SklJ/4zo/8Qeyp9Iyq8gyDMC0Faw8HhdlNiUdGLVEbvNnfWgbPLlqrSLeLEK9Iemu3BPugnmcDAJDChY8XzbHWY8RjIjON7KUYpkwN2Q4zux/19+/denrXwQKfpjdupshY4BJ5058onGsKUTJQwHOfuY4OMThXimL1ci/ZMv2yIWhpfbvTPfwUX4NwSCvml5rAYPi/0yFayEizKQt4P26qXtFowv7Kc3oXWjMzR5rr7kERpUM6TAQsjtGg==|920

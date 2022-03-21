@@ -3,7 +3,7 @@
   <AuditingList class="System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" assembly="mscorlib">
     <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
       <Key type="System.String">
-        <Value>DEMO_DB</Value>
+        <Value>DEMO_TYPE_A</Value>
       </Key>
       <Value type="System.Int32">
         <Value>0</Value>
@@ -26,7 +26,6 @@
   <MaxRowCount>10000000</MaxRowCount>
   <NotAllowModifyDatabaseByJsApi>False</NotAllowModifyDatabaseByJsApi>
   <StartDateFiscalYear>4</StartDateFiscalYear>
-  <StartPage>시작페이지</StartPage>
   <UserServicePort>37731</UserServicePort>
   <WebSitePort>46818</WebSitePort>
 </ApplicationSettings>

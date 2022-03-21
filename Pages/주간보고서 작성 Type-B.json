@@ -193,7 +193,7 @@
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "='주간보고서 작성2'!F7"
+          "SerializeProperty": "='주간보고서 작성 Type-B'!F7"
         },
         "DateFormat": "yyyy년MM월dd일",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
@@ -204,7 +204,7 @@
         "$type": "Forguncy.DateCellType, ServerDesignerCommon",
         "CellDefaultValue": {
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-          "SerializeProperty": "='주간보고서 작성2'!F7+4"
+          "SerializeProperty": "='주간보고서 작성 Type-B'!F7+4"
         },
         "DateFormat": "yyyy년MM월dd일",
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
@@ -279,13 +279,13 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "='주간보고서 작성2'!F6"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!F6"
                         }
                       ]
                     },
                     "value": "%Null%",
                     "compareType": 1,
-                    "Id": "53490477-c07b-487b-a094-81966cdc93a1"
+                    "Id": "5d1ab759-3b3c-40b3-b4fd-2759844cf98c"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -293,20 +293,20 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "='주간보고서 작성2'!O6"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!O6"
                         }
                       ]
                     },
                     "value": "%Null%",
                     "compareType": 1,
-                    "Id": "f8e2e8fc-9d0e-4533-9c75-03f282a3b54d"
+                    "Id": "b97473d1-3cfb-454b-a460-ac02ac877033"
                   },
-                  "Id": "1499337d-197b-4dce-986c-84e47a625449"
+                  "Id": "47c01dbb-664b-410f-93e5-1739b96e8025"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-                    "TableName": "DEMO_DB2",
+                    "TableName": "DEMO_TYPE_B",
                     "UpdateType": "add",
                     "ShowConfirm": false,
                     "ConfirmText": "데이터를 추가하시겠습니까?",
@@ -315,102 +315,102 @@
                         "ColumnName": "소속",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!F6"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!F6"
                         }
                       },
                       {
                         "ColumnName": "담당자",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!O6"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!O6"
                         }
                       },
                       {
                         "ColumnName": "시작날짜",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!M8"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!M8"
                         }
                       },
                       {
                         "ColumnName": "종료날짜",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!U8"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!U8"
                         }
                       },
                       {
                         "ColumnName": "날짜",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!F7"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!F7"
                         }
                       },
                       {
                         "ColumnName": "목표",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!H11"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!H11"
                         }
                       },
                       {
                         "ColumnName": "진척도",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!Y11"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!Y11"
                         }
                       },
                       {
                         "ColumnName": "업무비고",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!AC11"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!AC11"
                         }
                       },
                       {
                         "ColumnName": "금주",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!H19"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!H19"
                         }
                       },
                       {
                         "ColumnName": "차주",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!R19"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!R19"
                         }
                       },
                       {
                         "ColumnName": "비고",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!AC19"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!AC19"
                         }
                       },
                       {
                         "ColumnName": "팀장지시사항",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!C40"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!C40"
                         }
                       },
                       {
                         "ColumnName": "경영진지시사항",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='주간보고서 작성2'!R40"
+                          "SerializeProperty": "='주간보고서 작성 Type-B'!R40"
                         }
                       }
                     ]
                   },
                   {
                     "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-                    "PageName": "보고서 리스트2",
+                    "PageName": "보고서 리스트 Type-B",
                     "PassValues": []
                   }
                 ],
-                "ID": "e5327d05-0ae9-4e4b-a685-eb603ecfcc13"
+                "ID": "1b11c12e-c068-416f-bec5-02555f489417"
               }
             ]
           }
@@ -1518,8 +1518,9 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
+    "Title": "Type-B 보고서 작성",
     "AuthorizeInfo": {
-      "VisitMode": 2
+      "VisitMode": 3
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
@@ -1532,4 +1533,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//ATiAXDCC1VYBKOpC8KBuhs+vnYWnnz3MbyZsziv7L9xZwsUkdKbeI74kmOWL5300nMOKjheT4gYJzd0UOmyRJoij8PnJ/dLD6LG+YC+QHNpJ7Zwq2BOv2D5SHoZnlubQGY+eaQwGGhZe1ATsNPz1N0PpgZPeZjc8iOM/BuZX21llqF9vYuzt3pSL0RrDreE8+MAfmQNd2aey5jQ0aY5NxJ/PiDU7QzwPmNMbXYnFuXKXBmarId0F8lkxRhR05CQBl9GeAnoIYNk0Lj9KvW+vz3q8IpI3I+bPu62RaHS87EV7U/CBFKgaSVktqbZEelg3jEiYWz7mHTadEw/EhcyL51bsiyePWRVTEM+PSbMVaQtplGRwXcx8KFlV3BYO+mXaYcdCpKQIkoZX3IghzEMQmlAwyr3EE3fECPhTlwG/GPQuB05OiuM1nD7/NEapq+jshZQ+1VoEkFOiV287Yz8u6ZXKZYqGf4qq83v7Dt605tbY4+nzqP2Is47l9Gt9AMfCjuYshQoJ16+Ei+m8xnWyLOd14z2H8x9YNaRDBrOLV0nJZo9JOJ6o8yPTwrNCJegLraRD2q3pvUjQoz7IaNlc7Fx7JyBqsCFUX/AHNGgsTO0WMZMcSY2pTwG6Vjz8z648tL1GtfnnrBzdnCh+FLGJGfAtaOtOn+tcdedDrIcPuJPgxP5g+zCIPQ998JhtmZt9Y8Bg4w+0zd1jLxoRSXB9Nv9E0LarU4gFnIzwTcHJbdHHNZZaBiuAiovoDRTzo/9OTCH0iFVpnV54UtKvm0qze6GPrcBVk9yhuF1riM0kpCvbsBO/oFwBCRqIGPnxHu71BQTNChvyisqsvfOfw/BJVN1iGYr78LDsBL5mqiY3xPP3Wx08+9EAPNS7GNhCrW+b/k3WE1vndccdH25cfE7mkw==|920
+}//un8ps80Tw1CeCLQ4dowSxlFQe+bk7RtvHKoe2goT7QdTs0L9TjWv08P2M5PDKbeNrg8bz6z05udFhFpXW6DYr2WZIpRr721tRYJvK+/uTmxxVe2CuVNAheUMKHI+cnU1zeAbIskEL5KdUM8K/99BrLvyiM/0d5/pdH4JJVU6nI2MqFxWu67+TfftVwSoUAN4wnJDhSI7KM6zlQqVRna9fhFc8Cvl3m4tQtVUtjKHFpi2IJU/WaXOK6OaHUvNkj9qgB1qS4srvTj3XYVuNFYcBrP6iboalD6WJaok6W1iJu4n6E4r/smdkq1nTwmver/ixSL0Sz6wg/xMFVQajmtuGJWumk4kqubf3jIVuBe7y+Jl8iFZOHvg0Qmvvgp1jsnTZyPDLT9od9J5alVoGg7nRwb7efQQJcYRESWdQBRW96aZa6y+h5rX/0K+bzH3iGvJ5PZtZ1vMF+us+IsvELfnweHHc3/VPn7ZaKtL/2IW7TpeUtF+liTmbQ37E4qQgs9e/GlM00sZFcatKwg48m6Uo867JR7zXcdFsImiET3IS4zOxYa1RiMGD9rklgmzilHytI+3+hwz2xGYhEyJGA7i+sYQ7qJ5BKBCRuUjEJd9I1P1iNHvjMRjSQeZvwlPuj+GDeiaEfdQ9V2ihK6p+OlZNQYXsJ7Crlg9vlBuXOxLnsP6YlDdkpO3mN8Kh2aSqymCvZ7ru8M7u9MFOu9Hj3oXH+0hwn5tq17jMVVTGZRsqy594E99jyXgmRw3fFT8Nchd+PXsPy4uvuENDPbxHFLOCTlv79CrP2DH8jnByRPTs/YzBLGsNPzvzk3ZxdENYs8h7vJVd5Biye6sOKkfQH9Nky4ZGkcSIs6wMDjYq7z2/9QdJ/paMza2HGL4uTycJAqaywt0rCW/M6tQVQPOoaSK6w==|920
