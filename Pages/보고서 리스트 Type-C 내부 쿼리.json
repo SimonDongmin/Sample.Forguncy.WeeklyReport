@@ -1,0 +1,507 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 2,
+    "DefaultSize": 15.0
+  },
+  "Cols": {
+    "InLogicalVisibleIndexes": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "Count": 60
+  },
+  "Values": {
+    "0,0": "월/주차"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "월/주차",
+            "DisplayValue": "월/주차"
+          },
+          {
+            "Value": "년간주차",
+            "DisplayValue": "년간주차"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!A1"
+                      }
+                    ]
+                  },
+                  "value": "월/주차",
+                  "Id": "246f3732-d4f7-4872-8ac6-95f7c6f83947"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!G:N"
+                        },
+                        "Value": false
+                      },
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!O:V"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "DEMO_TYPE_A",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "DEMO_TYPE_A",
+                        "ColumnName": "ID"
+                      },
+                      "Value": "%Null%",
+                      "Id": "4bb542e3-c871-41df-9289-7e40342642d7"
+                    },
+                    "Params": [],
+                    "ID": "bef72ee3102449b18dadc033d86fbd68"
+                  }
+                ],
+                "ID": "e9f6ee48-568e-4371-9049-d0a9775b1e50"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!A1"
+                      }
+                    ]
+                  },
+                  "value": "년간주차",
+                  "Id": "183e8deb-77c6-41f3-bbaf-1d93d3e50605"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!G:N"
+                        },
+                        "Value": true
+                      },
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!O:V"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "DEMO_TYPE_A",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "DEMO_TYPE_A",
+                        "ColumnName": "ID"
+                      },
+                      "Value": "%Null%",
+                      "Id": "6bdfa857-d35c-44b1-921a-fe1cf2c991c7"
+                    },
+                    "Params": [],
+                    "ID": "26a888f0d3934304a58278f7525228aa"
+                  }
+                ],
+                "ID": "780e8a47-4aa8-4e5d-8e68-fd763f40def0"
+              }
+            ]
+          }
+        ],
+        "CellDefaultValue": "월/주차"
+      }
+    },
+    "0,6": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "NoneItemText": "연간 주차 전체",
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "DEMO_TYPE_C",
+        "ValueColumnBindingInfo": {
+          "TableName": "DEMO_TYPE_C",
+          "ColumnName": "주차"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "DEMO_TYPE_C",
+          "ColumnName": "주차"
+        },
+        "ItemsSort": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "DEMO_TYPE_C",
+                "ColumnName": "날짜"
+              },
+              "Order": 1
+            }
+          ],
+          "Id": "21af7dcb-b531-44e9-921a-f398995ebfb5"
+        },
+        "AddNullItemWhenBinding": true,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!G1"
+                      }
+                    ]
+                  },
+                  "value": "모두",
+                  "Id": "c9f3489e-25c4-4e1e-9920-86a261c7a18d"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "DEMO_TYPE_C",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "DEMO_TYPE_C",
+                        "ColumnName": "ID"
+                      },
+                      "Value": "%Null%",
+                      "Id": "13f98935-7284-4442-93d0-1e3678f0f767"
+                    },
+                    "Params": [],
+                    "ID": "5fff5c0acaf64d0a903421ffae346e9c"
+                  }
+                ],
+                "ID": "77eb8018-ef61-406c-bbab-4b7beab0533d"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "DEMO_TYPE_C",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "DEMO_TYPE_C",
+                        "ColumnName": "주차"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!G1"
+                      },
+                      "Id": "1d7d2995-4a52-483c-9345-422303815de4"
+                    },
+                    "Params": [
+                      "=G1"
+                    ],
+                    "ID": "e1c7d212e6744c4c8f216f45dd7ad080"
+                  }
+                ],
+                "ID": "77778a4e-a12b-418d-839d-da6c6537a935"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "0,14": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "NoneItemText": "월/주차 전체",
+        "Items": [
+          {
+            "Value": "항목1",
+            "DisplayValue": "항목1"
+          },
+          {
+            "Value": "항목2",
+            "DisplayValue": "항목2"
+          },
+          {
+            "Value": "항목3",
+            "DisplayValue": "항목3"
+          }
+        ],
+        "DataSource": "DEMO_TYPE_C",
+        "ValueColumnBindingInfo": {
+          "TableName": "DEMO_TYPE_C",
+          "ColumnName": "월_주차"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "DEMO_TYPE_C",
+          "ColumnName": "월_주차"
+        },
+        "ItemsSort": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "DEMO_TYPE_C",
+                "ColumnName": "날짜"
+              },
+              "Order": 1
+            }
+          ],
+          "Id": "8c51b7f4-e385-454e-bb36-5f2b5d64aeeb"
+        },
+        "AddNullItemWhenBinding": true,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!O1"
+                      }
+                    ]
+                  },
+                  "value": "모두",
+                  "Id": "2be0ed97-a590-483d-b958-efe22995ca72"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "DEMO_TYPE_C",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "DEMO_TYPE_C",
+                        "ColumnName": "ID"
+                      },
+                      "Value": "%Null%",
+                      "Id": "a5213c1e-e965-41bf-9725-e9dd4c408391"
+                    },
+                    "Params": [],
+                    "ID": "71a8214803414d2f8cc28a5f8c7f56d3"
+                  }
+                ],
+                "ID": "07237e37-d454-4428-ac79-d1648e45d766"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "DEMO_TYPE_C",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "DEMO_TYPE_C",
+                        "ColumnName": "월_주차"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "='보고서 리스트 Type-C 내부 쿼리'!O1"
+                      },
+                      "Id": "3d07dffd-7ff5-4eb7-a8bf-e11ef437262e"
+                    },
+                    "Params": [
+                      "=O1"
+                    ],
+                    "ID": "6490caa3334a49a79ab8a149942c51ae"
+                  }
+                ],
+                "ID": "70d7a7ff-44ba-4345-9239-83150472989e"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 1,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 1,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "0,6,2,8",
+    "0,0,2,5",
+    "0,14,2,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//axfQZDmo63bP8/560fmbj1boTmNHe19rSVFr9Kj4Aop86mhX26Xl7YPM1V5bcSZV3WO1N+/VH+9IbWNfeJ+pzs0hVSPCSLGGBRGgtDV8XY+5iFDoAliONARIJCPGB1pfmJYwtzCOfVyK0y2aAoadmrmysR4sKs+uO3ud47L9JO41VbJ7WSTpw8dWRHMd1IGD9nqEUJymJyxpBV+OyPhUJptq+Cp74oJtUyr9+ReSZ546Z3+d4w8ISqRyvylt/zkclCEi6zSlEKz4mljTJVukFEFouxqE5QKjXZbhC2nE93lWKvIH6SfJitvKSHEOW0sJi035Uu21+4CeKySaL62kJsF2WiOFMdtpyvrhu0VYb8fvcsnNzNlQnw6JY6eOWzIueHMyrG0rvNgXNmUsToc81bqhpWUj11WmjKvETZVSmyfeE+5KkK7FDQxcfAyOvciCP+4QotBlQ9r9le3nbRY3+TJ/BWACyUWfVl5XL3kR6OhYI8noQUxDgyzXsEHSWENtgAzBmUx/RjAHfOxQ+EMchIQw0prNy+XHoSZ/Jn++IDOtMZi4LhKYM4V58pDxb9RpIyIHHf2pLnV5TYTwSXVz74YutI0x9NeJEjv/shz0oI45lZtkzWlDZYWQKryxmrxE/c47DG8BmWIAm9VNtaqMdCassiWNIEa+2jr7JgcQY4tZ7R0z1/dsUjmKpwOxi1QF55NtdTxwZ/1uF3rZZCrbGmZ0P1D4HbN1IHQBic9L39vwbw2YwzxvGbKcZGQmCiWleCb0bOPkDxH8V3oFhKL29OhYGrOM2wazSIwTuzAKoBCyHDEZWXqo+3y/XZBfDAJrlpZPO3Q+CHwxSurSlB4SE0XUtEH/y38LdngCV6ebnYyyUxu/vQ1XoIZFmxYt3D+TOiFIpHopEfhQUHgm4dSwiA==|920

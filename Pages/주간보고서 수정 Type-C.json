@@ -477,7 +477,7 @@
             "ExportExcelPageNameMode": 2,
             "NewOtherName": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=YEAR('주간보고서 뷰 Type-C'!Y10)&\"년 \"&MONTH('주간보고서 뷰 Type-C'!Y10)&\"월 \"&INT((DAY('주간보고서 뷰 Type-C'!Y10)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰 Type-C'!Y10),MONTH('주간보고서 뷰 Type-C'!Y10),1))-1)/7)+1&\"주차 보고서\""
+              "SerializeProperty": "=YEAR('주간보고서 수정 Type-C'!Y10)&\"년 \"&MONTH('주간보고서 수정 Type-C'!Y10)&\"월 \"&INT((DAY('주간보고서 수정 Type-C'!Y10)-1+WEEKDAY(DATE(YEAR('주간보고서 수정 Type-C'!Y10),MONTH('주간보고서 수정 Type-C'!Y10),1))-1)/7)+1&\"주차 보고서\""
             }
           }
         ],
@@ -494,12 +494,60 @@
             "ExportExcelPageNameMode": 2,
             "NewOtherName": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=YEAR('주간보고서 뷰 Type-C'!Y10)&\"년 \"&MONTH('주간보고서 뷰 Type-C'!Y10)&\"월 \"&INT((DAY('주간보고서 뷰 Type-C'!Y10)-1+WEEKDAY(DATE(YEAR('주간보고서 뷰 Type-C'!Y10),MONTH('주간보고서 뷰 Type-C'!Y10),1))-1)/7)+1&\"주차 보고서\""
+              "SerializeProperty": "=YEAR('주간보고서 수정 Type-C'!Y10)&\"년 \"&MONTH('주간보고서 수정 Type-C'!Y10)&\"월 \"&INT((DAY('주간보고서 수정 Type-C'!Y10)-1+WEEKDAY(DATE(YEAR('주간보고서 수정 Type-C'!Y10),MONTH('주간보고서 수정 Type-C'!Y10),1))-1)/7)+1&\"주차 보고서\""
             }
           }
         ],
         "Text": "PDF로 보기",
         "TemplateKey": "버튼아닌척"
+      }
+    },
+    "44,22": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "DEMO_TYPE_C",
+            "ShowConfirm": false,
+            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+            "RowsToUpdate": 1,
+            "RowsToUpdateCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "DEMO_TYPE_C",
+                "ColumnName": "ID"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "='주간보고서 수정 Type-C'!AM1"
+              },
+              "Id": "682a6404-a140-4baa-a474-a41cd54cda89"
+            },
+            "UpdateValues": [
+              {
+                "ColumnName": "월_주차",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=YEAR('주간보고서 수정 Type-C'!Y10)&\"년 \"&'주간보고서 수정 Type-C'!AB11&\"월 \"&'주간보고서 수정 Type-C'!AD11&\"주\""
+                }
+              },
+              {
+                "ColumnName": "주차",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=YEAR('주간보고서 수정 Type-C'!Y10)&\"년 \"&'주간보고서 수정 Type-C'!X11&\"주차\""
+                }
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "보고서 리스트 Type-C",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "44,28": {
@@ -2455,7 +2503,8 @@
     "3,27,3,3",
     "3,30,3,3",
     "6,27,1,3",
-    "6,30,1,3"
+    "6,30,1,3",
+    "44,22,2,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2475,4 +2524,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//9+wuj7LOwKlzBBgvi7PD/Qk6+ghg8MN0W8qZtnKRu6spsj8rgN66uLHxDYUxTFN6+yvTbGqmf9noA0uKglBD+T2jnB1gJBqwVWpwGg0hyvVfNc9OWpsxPrjA1jcEfR8fuWN7jnIUVSFnCIKqeRWCc4kiIhN66Hu7Qp51gDqUzI6NCCAJtRIGV46I5gUCvPkHRQABsFeOXJezmRwB4RYicKlRvA4kl0MnMk+t4aTNfPIwx/ApReuUKXiQa+NrWFfWov/RP0J+G9lk1PniDTgkNfFLSZb1tzNJvVdSQuNK/fl/i/zO34dxuVQF5Wn0I/cE2Jkka8MQqDvUOnzOjrp5fAdTXXEGp84fszBeB2uLr5km43X32YSQN/XUyp0/sSBcjnYrN8Dd3nl0PbxpqpWQC1Onc7UG+W3/GaJZX+XJ8M9WEv9OzCAoto/mMmTlWpILaWbSGlIrDcomLEKm9TEYKizsUZRIX9+W+v66U+9BmtiIextKNzvJBxw5mDk0l3sjPvFFo58fiS7wG1YZi3/E+dBB2RJhW4KkF+jU0kK0jylFraYBoHn6dq8yXdoOSR0wWG85Lt4maUXIIlCOIrxx6rbuCmXN885pmWXif8P1kRG/RCwOI3y6NmBhJuqS0aprV5khJiTIye4KWs0l71OzcVxA/gvaMPm9Jn5dJgPHankbYOPp3TQmOmCxZkknzu4KCm9bLBj6kGq5PwAbkNGEpv50Icn3vf130dPdTP/9LnmmDMnclJKN8qZm9VbKPj7QEmcamPl/uM9+zyl972GOnv/wuLsMaBanf2Qfm5EnokhhJLzVNVIemLfcXmj08k5UuuR8cYzE6NHUCOA3pAJstYOu25rHubYtptkY6NRzXjWaCSnBQUOovl9onZcZxYimQ8eDXuN6E1ecE5MPfMzwZw==|920
+}//Dtxjthd7EN3ExAP83vU+souI6G0Fp8X74s29XQsP9Q7UQsHwOlIxhW9HNMdSlOEraGtucXQ6zWuEKIxmAKgV8OwpanAnsXG+TOe4gAXTbR7Wmfqz/No+SyB8X8WyE+04XXkh9yLq59ClIL+LEqPxvBcODwFT3/NEROkzNspuy27D0HQC8A099QaLJmwhpU8zx3EUEmNfAP6bsrprdjnuX2ADjEXaR/+dUgKL3f3j1titVDXX8cGL44cnd/wxLyw8qJb+GIq3pgLYG0dcndDhVBSGpauOGQuVvPCBBG7eFsTqIZv32Qo0Clj/4zXXgad9jvbidGIbwYXWvrGgNgCrK4EJIywMTbpJkeBGjg8vCHRaM3AXA4m43UaU8y+/76gbdXembJg5JY9gZe5qzPbrvx34Bhx3Faoy6SkIKvNB6eNKBMwIlGJ49rh6xsyN6z+HiLxgDhN4yB+MaW1hx/BkaI1Uh85Fd7ZUwHKJKcvI6BB/3+OJWwFYapz3Hdf9ovyXBlIUUqeKpTNl3uHzKPrY2E2nckCfTWV6edYClRN8t4uzXu8qJJkPBanqIO+6MGpLjmKTJr4xd1eelZ3vEjeE8yQwPLVBNoCIX0GQ815UcmFqas3TRayddecOhp46zesUPUMMlyuo11HOIEDPZPQx/jPq9F9ZZEQW6HYilnLj4D1K7dyvSZaibZlNCYeRF6dN5Z9ME2SENlVdMj8T0ZOObFlk5Yt22TPNZGr+pt591Ho6e0mG/kRvFHvmVdChbEjcoY5MLAZAvepORNPwFDi4w6nEtqxbrPyMYjDDd+n5ymv343zP3d6mpBspGptX6MqyRl3y4KuF8tS7VBY8dSMBfeNTdw3rQTrCQhsp8J1Kx3v29ncCO6gL5CYx09lOcOONt2jhlAlAJRHgxr8Ysk6LOQ==|920
