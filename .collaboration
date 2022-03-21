@@ -142,7 +142,16 @@
   },
   {
     "ModuleName": "PCPage/시작페이지",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T15:03:19.4355112+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\시작페이지.json"
+    ]
   },
   {
     "ModuleName": "PCPage/보고서 리스트 Type-A",
