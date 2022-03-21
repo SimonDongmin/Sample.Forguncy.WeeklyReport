@@ -343,5 +343,15 @@
     },
     "LockDateTime": "2022-03-21T15:51:42.868651+09:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "MasterPCPage/마스터 페이지1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T16:58:59.4618166+09:00",
+    "ModuleType": 3
   }
 ]
