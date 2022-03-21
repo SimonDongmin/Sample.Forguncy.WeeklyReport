@@ -21,7 +21,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:43.7837821+09:00",
+    "LockDateTime": "2022-03-21T12:10:00.8080589+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DEMO_SELECT_ITEMS.json",
@@ -145,7 +145,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:23.1029538+09:00",
+    "LockDateTime": "2022-03-21T12:10:00.8080589+09:00",
     "ModuleType": 8,
     "ToRemoveFiles": [
       "ApplicationSettings",
@@ -421,7 +421,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:23.1029538+09:00",
+    "LockDateTime": "2022-03-21T12:10:00.8070661+09:00",
     "ModuleType": 1
   },
   {
@@ -451,7 +451,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:23.1029538+09:00",
+    "LockDateTime": "2022-03-21T12:10:00.8080589+09:00",
     "ModuleType": 1
   },
   {
@@ -461,7 +461,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:23.1029538+09:00",
+    "LockDateTime": "2022-03-21T12:10:00.8070661+09:00",
     "ModuleType": 1
   },
   {
@@ -505,13 +505,13 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "Table/DEMO_DB_TYPE_A",
+    "ModuleName": "Table/DEMO_TYPE_A",
     "State": 3,
     "LockedBy": {
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:43.7837821+09:00",
+    "LockDateTime": "2022-03-21T12:10:00.8070661+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -522,7 +522,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:43.7837821+09:00",
+    "LockDateTime": "2022-03-21T12:10:00.8080589+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -533,7 +533,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:43.7837821+09:00",
+    "LockDateTime": "2022-03-21T12:10:00.8080589+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
