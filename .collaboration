@@ -1,7 +1,17 @@
 [
   {
     "ModuleName": "Table/DEMO_SELECT_ITEMS",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T17:52:56.233818+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\DEMO_SELECT_ITEMS.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -191,17 +201,47 @@
   },
   {
     "ModuleName": "Table/DEMO_TYPE_A",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T17:52:56.233818+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\DEMO_TYPE_A.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/DEMO_TYPE_B",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T17:52:56.233818+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\DEMO_TYPE_B.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/DEMO_TYPE_C",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T17:52:56.233818+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\DEMO_TYPE_C.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
