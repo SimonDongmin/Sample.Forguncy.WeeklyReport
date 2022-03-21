@@ -242,7 +242,16 @@
   },
   {
     "ModuleName": "PCPage/주간보고서 뷰 Type-B",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "SIMON\\USER",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-03-21T15:16:07.9361276+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\주간보고서 뷰 Type-B.json"
+    ]
   },
   {
     "ModuleName": "PCPage/주간보고서 작성 Type-C",
