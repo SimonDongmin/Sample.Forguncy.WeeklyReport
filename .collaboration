@@ -21,7 +21,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T12:10:08.770594+09:00",
+    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 7,
     "ToRemoveFiles": [
       "Tables\\DEMO_SELECT_ITEMS.json",
@@ -441,7 +441,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:43.7837821+09:00",
+    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 1
   },
   {
@@ -491,7 +491,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T11:08:43.7837821+09:00",
+    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 1
   },
   {
@@ -511,7 +511,7 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T12:10:08.770594+09:00",
+    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
@@ -522,18 +522,18 @@
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T12:10:08.770594+09:00",
+    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
-    "ModuleName": "Table/DEMO_DB_TYPE_C",
+    "ModuleName": "Table/DEMO_TYPE_C",
     "State": 3,
     "LockedBy": {
       "UserName": "SIMON\\USER",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2022-03-21T12:10:08.770594+09:00",
+    "LockDateTime": "2022-03-21T12:10:16.2627697+09:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
